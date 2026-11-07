@@ -1,0 +1,1490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>LCPC Network — LC Predator Catcher | Kingston, PA — Luzerne Ep. 1 Coming Soon</title>
+    <meta name="description" content="LCPC Network is the home base of LC Predator Catcher — 654 exposures documented since 2020 out of Kingston, PA. Catches, the Project Safety Eye missing kids board, County by County registry breakdowns, music, and support links." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LCPC Network Alert — Missing Kids Board" />
+    <meta property="og:description" content="Verified missing kids, latest first. If you recognize a face, call 1-800-843-5678." />
+    <meta property="og:image" content="https://muse.ai/s/lcpc-network-mxp69mxexprkxnq/80Mfb-5t5Lxi0BHDIBRW1d-aJoSgAZhgTM2nnRMMaxg/assets/board.webp" />
+    <meta property="og:url" content="https://muse.ai/s/lcpc-network-mxp69mxexprkxnq/80Mfb-5t5Lxi0BHDIBRW1d-aJoSgAZhgTM2nnRMMaxg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f6f3;
+        --surface: #ffffff;
+        --surface-2: #edece8;
+        --ink: #16130f;
+        --ink-2: #4c463c;
+        --muted: #6f675a;
+        --line: #d9d4c8;
+        --red: #c8102e;
+        --red-ink: #a50d26;
+        --red-soft: #fbe9ec;
+        --amber: #9a6206;
+        --amber-soft: #fdf3dd;
+        --teal: #0f5e56;
+        --teal-soft: #e2f0ee;
+        --dark-band: #16130f;
+        --dark-band-ink: #f4f1ea;
+        --dark-band-2: #a49a86;
+        --shadow: 0 1px 2px rgba(22,19,15,.06), 0 10px 30px -18px rgba(22,19,15,.35);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #12100d;
+          --surface: #1c1915;
+          --surface-2: #262219;
+          --ink: #f2eee5;
+          --ink-2: #cfc8b8;
+          --muted: #9d9582;
+          --line: #38332a;
+          --red: #ff4d61;
+          --red-ink: #ff8291;
+          --red-soft: #33161c;
+          --amber: #f0b64a;
+          --amber-soft: #33270e;
+          --teal: #5cc4b6;
+          --teal-soft: #123330;
+          --dark-band: #0a0908;
+          --dark-band-ink: #f4f1ea;
+          --dark-band-2: #a49a86;
+          --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px -18px rgba(0,0,0,.8);
+        }
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-size: 16.5px;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+      }
+      .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+      a { color: var(--red-ink); }
+      img { max-width: 100%; display: block; }
+      .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+      /* ---------- top bar ---------- */
+      .topbar {
+        position: sticky; top: 0; z-index: 50;
+        background: color-mix(in srgb, var(--bg) 88%, transparent);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--line);
+      }
+      .topbar-in { display: flex; align-items: center; gap: 18px; padding: 10px 0; flex-wrap: wrap; }
+      .wordmark { display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: var(--ink); }
+      .wordmark b { font-weight: 900; font-size: 21px; letter-spacing: .02em; }
+      .wordmark b span { color: var(--red); }
+      .wordmark .mono { font-size: 11px; color: var(--muted); letter-spacing: .08em; }
+      .rec { display: inline-flex; align-items: center; gap: 7px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-weight: 700; letter-spacing: .1em; color: var(--red-ink); }
+      .rec::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--red); animation: blink 1.6s steps(2, start) infinite; }
+      @keyframes blink { 50% { opacity: .15; } }
+      @media (prefers-reduced-motion: reduce) { .rec::before { animation: none; } }
+      nav.main { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
+      nav.main a {
+        color: var(--ink-2); text-decoration: none; font-size: 13.5px; font-weight: 600;
+        padding: 7px 10px; border-radius: 6px;
+      }
+      nav.main a:hover { background: var(--surface-2); color: var(--ink); }
+
+      /* ---------- hero ---------- */
+      .hero { padding: 44px 0 0; }
+      .hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 36px; align-items: center; }
+      .hero h1 {
+        font-size: clamp(42px, 6.4vw, 76px); line-height: .98; font-weight: 900;
+        letter-spacing: -.015em; margin: 14px 0 18px; text-wrap: balance;
+      }
+      .hero h1 em { font-style: normal; color: var(--red); }
+      .hero .lede { font-size: 18.5px; color: var(--ink-2); max-width: 34em; margin: 0 0 24px; }
+      .hero .lede strong { color: var(--ink); }
+      .cta-row { display: flex; gap: 12px; flex-wrap: wrap; }
+      .btn {
+        display: inline-flex; align-items: center; gap: 8px;
+        font-weight: 700; font-size: 15px; text-decoration: none;
+        padding: 13px 20px; border-radius: 8px; border: 1.5px solid var(--ink);
+      }
+      .btn-solid { background: var(--red); border-color: var(--red); color: #fff; }
+      @media (prefers-color-scheme: dark) { .btn-solid { color: #16090b; } }
+      .btn-solid:hover { filter: brightness(1.08); }
+      .btn-ghost { color: var(--ink); background: transparent; }
+      .btn-ghost:hover { background: var(--surface-2); }
+      .hero-fig { margin: 0; }
+      .hero-fig img { border-radius: 10px; border: 1px solid var(--line); box-shadow: var(--shadow); aspect-ratio: 3/2; object-fit: cover; width: 100%; }
+      .hero-fig figcaption { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); margin-top: 9px; }
+      .file-line { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .12em; color: var(--muted); text-transform: uppercase; }
+      .file-line b { color: var(--red-ink); }
+
+      .stats {
+        margin: 40px 0 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line);
+        display: grid; grid-template-columns: repeat(4, 1fr);
+      }
+      .stat { padding: 18px 16px 16px; border-left: 1px solid var(--line); }
+      .stat:first-child { border-left: none; padding-left: 0; }
+      .stat .n { font-size: clamp(26px, 3.4vw, 38px); font-weight: 900; line-height: 1; letter-spacing: -.01em; }
+      .stat .n span { color: var(--red); }
+      .stat .l { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-top: 7px; }
+
+      /* ---------- sections ---------- */
+      section { padding: 64px 0 8px; }
+      .sec-head { display: flex; align-items: flex-end; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
+      .sec-head h2 { font-size: clamp(30px, 4.4vw, 44px); font-weight: 900; letter-spacing: -.01em; line-height: 1.05; margin: 6px 0 0; }
+      .sec-head p { color: var(--ink-2); max-width: 44em; margin: 10px 0 0; }
+      .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 12px; font-weight: 700; letter-spacing: .12em; color: var(--red-ink); text-transform: uppercase; }
+
+      /* method */
+      .method { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); margin-top: 22px; }
+      .step { padding: 24px 24px 20px; border-left: 1px solid var(--line); }
+      .step:first-child { border-left: none; }
+      .step .no { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 13px; color: var(--red-ink); }
+      .step h3 { margin: 10px 0 8px; font-size: 19px; font-weight: 800; }
+      .step p { margin: 0; color: var(--ink-2); font-size: 15.5px; }
+      .creed {
+        margin-top: 26px; background: var(--dark-band); color: var(--dark-band-ink);
+        border-radius: 10px; padding: 30px 30px 26px;
+      }
+      .creed p { font-size: clamp(20px, 2.8vw, 27px); font-weight: 700; line-height: 1.35; margin: 0; max-width: 26em; }
+      .creed p em { font-style: normal; color: #ff8291; }
+      .creed .sig { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--dark-band-2); margin-top: 16px; letter-spacing: .06em; }
+
+      /* case files */
+      .tools { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 20px 0 6px; }
+      .tools input[type="search"] {
+        flex: 1 1 240px; font: inherit; font-size: 15px; padding: 11px 14px;
+        border: 1.5px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink);
+      }
+      .tools input[type="search"]:focus { outline: 2px solid var(--red); outline-offset: 1px; border-color: transparent; }
+      .chipset { display: flex; gap: 7px; flex-wrap: wrap; }
+      .chip {
+        font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
+        padding: 8px 13px; border-radius: 999px; border: 1.5px solid var(--line);
+        background: var(--surface); color: var(--ink-2);
+      }
+      .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+      .case-list { border-top: 2px solid var(--ink); margin-top: 14px; }
+      .case {
+        display: grid; grid-template-columns: 118px 1fr 210px; gap: 22px;
+        padding: 24px 6px; border-bottom: 1px solid var(--line); align-items: start;
+      }
+      .case .cno { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 15px; color: var(--red-ink); padding-top: 3px; }
+      .case .cno small { display: block; color: var(--muted); font-weight: 500; font-size: 11.5px; margin-top: 4px; letter-spacing: .05em; }
+      .case h3 { margin: 0 0 7px; font-size: 21px; font-weight: 800; line-height: 1.2; }
+      .case p { margin: 0; color: var(--ink-2); font-size: 15.5px; max-width: 40em; }
+      .case .tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 11px; }
+      .tag { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 600; letter-spacing: .05em; padding: 4px 8px; border-radius: 5px; background: var(--surface-2); color: var(--ink-2); text-transform: uppercase; }
+      .outcome { border: 1px solid var(--line); border-radius: 8px; padding: 13px 15px; background: var(--surface); }
+      .outcome .ol { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+      .outcome .ov { font-weight: 700; font-size: 14.5px; margin-top: 4px; line-height: 1.4; }
+      .outcome.guilty { border-color: var(--red); background: var(--red-soft); }
+      .no-results { padding: 28px 6px; color: var(--muted); display: none; }
+
+      /* cartoon strip */
+      .toon {
+        margin-top: 26px; border: 2px solid var(--ink); border-radius: 12px; padding: 28px;
+        display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; background: var(--surface);
+        box-shadow: 6px 6px 0 var(--red);
+      }
+      .toon h3 { margin: 0 0 8px; font-size: clamp(22px, 3vw, 30px); font-weight: 900; }
+      .toon p { margin: 0; color: var(--ink-2); max-width: 38em; }
+      .toon .stamp {
+        font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 13px; letter-spacing: .1em;
+        border: 2px solid var(--red); color: var(--red-ink); padding: 10px 14px; border-radius: 8px;
+        transform: rotate(-3deg); text-align: center; white-space: nowrap;
+      }
+
+      /* safety eye / county */
+      .split { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 22px; align-items: start; }
+      .split figure { margin: 0; }
+      .split figure img { border-radius: 10px; border: 1px solid var(--line); aspect-ratio: 3/2; object-fit: cover; width: 100%; }
+      .split figcaption { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); margin-top: 9px; }
+      .rules { list-style: none; margin: 18px 0 0; padding: 0; }
+      .rules li { padding: 13px 0 13px 30px; border-top: 1px solid var(--line); position: relative; color: var(--ink-2); font-size: 15.5px; }
+      .rules li::before { content: ""; position: absolute; left: 2px; top: 21px; width: 10px; height: 10px; background: var(--teal); border-radius: 2px; }
+      .rules li strong { color: var(--ink); }
+      .vote-box { background: var(--teal-soft); border: 1px solid var(--teal); border-radius: 10px; padding: 22px 24px; margin-top: 22px; }
+      .vote-box h3 { margin: 0 0 6px; font-size: 19px; font-weight: 800; }
+      .vote-box p { margin: 0 0 14px; color: var(--ink-2); font-size: 15.5px; }
+
+      /* missing board */
+      .board-note {
+        display: flex; gap: 14px; align-items: flex-start; background: var(--amber-soft);
+        border: 1px solid var(--amber); border-radius: 10px; padding: 18px 20px; margin-top: 20px;
+      }
+      .board-note p { margin: 0; font-size: 15.5px; color: var(--ink-2); }
+      .board-note p strong { color: var(--ink); }
+      .board-note .ph { font-family: "IBM Plex Mono", monospace; font-weight: 700; white-space: nowrap; color: var(--ink); }
+      .kid-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 22px; }
+      .kid {
+        background: var(--surface); border: 1px solid var(--line); border-top: 5px solid var(--amber);
+        border-radius: 10px; padding: 22px; box-shadow: var(--shadow); display: flex; flex-direction: column;
+      }
+      .kid.memorial { border-top-color: var(--ink-2); }
+      .kid.found { border-top-color: var(--teal); }
+      .kid .status { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--amber); }
+      .kid.memorial .status { color: var(--muted); }
+      .kid.found .status { color: var(--teal); }
+      .kid h3 { margin: 9px 0 3px; font-size: 21px; font-weight: 800; line-height: 1.2; }
+      .kid .meta { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--muted); }
+      .kid p { color: var(--ink-2); font-size: 15px; margin: 12px 0 0; flex: 1; }
+      .kid .foot { margin-top: 16px; padding-top: 13px; border-top: 1px solid var(--line); font-size: 13.5px; }
+      .kid .foot a { font-weight: 700; }
+      .kid .reel-frame { aspect-ratio: 9 / 16; background: #000; border-radius: 8px; overflow: hidden; margin: -6px -6px 14px; }
+      .kid .reel-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+      .kid .reel-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .kid .reel-link { font-size: 13px; font-weight: 700; display: inline-block; margin-top: 4px; }
+      .reel-fallback { aspect-ratio: 9 / 16; background: var(--surface-2); border: 1.5px dashed var(--line); border-radius: 8px; margin: -6px -6px 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px; text-decoration: none; color: var(--ink); }
+      .reel-fallback b { font-size: 17px; line-height: 1.3; }
+      .reel-fallback span { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+      .safe-box { margin-top: 22px; border: 1.5px dashed var(--teal); background: var(--teal-soft); border-radius: 10px; padding: 24px 26px; }
+      .safe-box h3 { margin: 0 0 6px; font-size: 20px; font-weight: 900; letter-spacing: .01em; }
+      .safe-box p { margin: 0; color: var(--ink-2); font-size: 15.5px; max-width: 52em; }
+      .safe-box ul { margin: 12px 0 0; padding-left: 20px; }
+      .safe-box li { margin: 6px 0; color: var(--ink-2); font-size: 15.5px; }
+      .safe-box li b { color: var(--ink); }
+      .count-strip { font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); margin: 14px 0 0; }
+      .archive-line { font-size: 14.5px; color: var(--ink-2); margin: 16px 0 0; max-width: 60em; }
+      .archive-line a { font-weight: 700; }
+      .email-band { margin-top: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 26px 28px; box-shadow: var(--shadow); }
+      .email-band h2 { margin: 0 0 8px; font-size: 24px; }
+      .email-band p { margin: 0 0 8px; color: var(--ink-2); font-size: 15.5px; }
+      .email-band iframe { display: block; margin: 14px auto 6px; border: 0; }
+      .email-note { font-size: 13.5px; text-align: center; }
+      .healing { margin-top: 18px; border: 1px solid var(--line); border-radius: 10px; padding: 20px 24px; background: var(--surface); }
+      .healing h3 { margin: 0 0 6px; font-size: 18px; font-weight: 800; }
+      .healing p { margin: 0 0 10px; color: var(--ink-2); font-size: 15px; }
+      .kid .reel-frame.contain img { object-fit: contain; background: #000; }
+      .skip { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+      .skip:focus { position: fixed; left: 12px; top: 12px; width: auto; height: auto; padding: 10px 14px; background: var(--surface); color: var(--ink); z-index: 100; border: 2px solid var(--red); border-radius: 8px; font-weight: 700; }
+      :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+      /* network reels strip */
+      .reels-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 300px)); gap: 18px; margin-top: 22px; justify-content: start; }
+      .reel-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+      .reel-card .vframe { aspect-ratio: 9 / 16; background: #000; }
+      .reel-card .vframe iframe { width: 100%; height: 100%; border: 0; display: block; }
+      .reel-card .rc { padding: 15px 17px 17px; }
+      .reel-card .rk { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red-ink); }
+      .reel-card h3 { margin: 6px 0 5px; font-size: 17.5px; font-weight: 800; line-height: 1.25; }
+      .reel-card p { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+      .reel-card .rc a { font-weight: 700; font-size: 13.5px; display: inline-block; margin-top: 8px; }
+      /* top videos per platform */
+      .top-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 22px; align-items: start; }
+      .plat-block { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; box-shadow: var(--shadow); }
+      .plat-block h3 { margin: 0; font-size: 19px; font-weight: 900; }
+      .plat-block .psub { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+      .top-list { list-style: none; margin: 14px 0 0; padding: 0; }
+      .top-list li { display: flex; gap: 12px; padding: 11px 0; border-top: 1px solid var(--line); align-items: baseline; }
+      .top-list .rk2 { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 12.5px; color: var(--red-ink); white-space: nowrap; }
+      .top-list a { font-weight: 700; color: var(--ink); text-decoration: none; line-height: 1.35; }
+      .top-list a:hover { color: var(--red-ink); text-decoration: underline; }
+      .top-list .views { margin-left: auto; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+      @media (max-width: 900px) { .top-grid { grid-template-columns: 1fr; } .reels-strip { justify-content: center; } }
+
+      /* music + books */
+      .music-grid { display: grid; grid-template-columns: .92fr 1.08fr; gap: 30px; margin-top: 22px; align-items: center; }
+      .music-grid figure { margin: 0; }
+      .music-grid figure img { border-radius: 10px; border: 1px solid var(--line); aspect-ratio: 3/2; object-fit: cover; width: 100%; }
+      .music-grid figcaption { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); margin-top: 9px; }
+      .tracklist { list-style: none; margin: 16px 0 0; padding: 0; border-top: 1px solid var(--line); }
+      .tracklist li { display: flex; gap: 14px; padding: 12px 2px; border-bottom: 1px solid var(--line); align-items: baseline; }
+      .tracklist .tn { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--red-ink); font-weight: 700; }
+      .tracklist b { font-size: 16px; }
+      .tracklist span { color: var(--muted); font-size: 14px; margin-left: auto; text-align: right; }
+      .book-band { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 26px; }
+      .book { border: 1px solid var(--line); border-radius: 10px; padding: 24px; background: var(--surface); display: flex; flex-direction: column; }
+      .book h3 { margin: 0 0 8px; font-size: 20px; font-weight: 800; line-height: 1.25; }
+      .book p { margin: 0; color: var(--ink-2); font-size: 15.5px; flex: 1; }
+      .book .btn { margin-top: 16px; align-self: flex-start; padding: 10px 16px; font-size: 14px; }
+      .book .series-tag { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red-ink); margin-bottom: 8px; }
+      .saga-band { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 18px; }
+      .saga-intro { margin: 26px 0 0; font-size: 15.5px; color: var(--ink-2); max-width: 52em; }
+      .saga-intro strong { color: var(--ink); }
+
+      /* watch + support */
+      .plat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
+      .plat { border: 1px solid var(--line); border-radius: 10px; padding: 20px; background: var(--surface); text-decoration: none; color: var(--ink); display: block; }
+      a.plat:hover { border-color: var(--red); }
+      .plat .pn { font-weight: 800; font-size: 17px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+      .plat .pn .arr { color: var(--red); font-family: "IBM Plex Mono", monospace; }
+      .plat .ph2 { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--muted); margin-top: 3px; word-break: break-all; }
+      .plat p { margin: 9px 0 0; font-size: 14.5px; color: var(--ink-2); }
+      .support-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+      .sup { border-radius: 10px; padding: 22px; background: var(--surface-2); }
+      .sup h3 { margin: 0 0 8px; font-size: 17.5px; font-weight: 800; }
+      .sup p { margin: 0 0 14px; font-size: 15px; color: var(--ink-2); }
+      .sup .btn { padding: 10px 16px; font-size: 14px; }
+
+      /* fuel the mission */
+      .fuel-band { margin-top: 22px; background: var(--dark-band); color: var(--dark-band-ink); border-radius: 10px; padding: 32px 30px 30px; }
+      .fuel-band .fuel-lede { margin: 0; font-size: 17px; line-height: 1.6; color: var(--dark-band-2); max-width: 52em; }
+      .fuel-band .fuel-lede strong { color: var(--dark-band-ink); }
+      .fuel-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 24px; max-width: 640px; }
+      .fuel-card { border: 1px solid #38332a; background: #211d17; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; }
+      @media (prefers-color-scheme: light) { .fuel-card { background: #221e18; } }
+      .fuel-card .fk { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #ff8291; }
+      .fuel-card h3 { margin: 10px 0 4px; font-size: 22px; font-weight: 900; line-height: 1.15; color: var(--dark-band-ink); }
+      .fuel-card .handle { font-family: "IBM Plex Mono", monospace; font-size: 15px; font-weight: 700; color: var(--dark-band-ink); word-break: break-all; }
+      .fuel-card p { margin: 12px 0 20px; font-size: 15px; line-height: 1.55; color: var(--dark-band-2); flex: 1; }
+      .fuel-card .btn { justify-content: center; text-align: center; }
+      .btn-fuel-solid { background: var(--red); border-color: var(--red); color: #fff; }
+      @media (prefers-color-scheme: dark) { .btn-fuel-solid { color: #16090b; } }
+      .btn-fuel-solid:hover { filter: brightness(1.08); }
+      .btn-fuel-ghost { border-color: var(--dark-band-ink); color: var(--dark-band-ink); background: transparent; }
+      .btn-fuel-ghost:hover { background: #2a251d; }
+      .fuel-note { margin: 18px 0 0; font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .05em; color: var(--dark-band-2); }
+      @media (max-width: 900px) { .fuel-grid { grid-template-columns: 1fr; } .fuel-band { padding: 24px 20px; } }
+
+      /* press row */
+      .press-band {
+        margin-top: 30px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface);
+        padding: 18px 22px; display: flex; align-items: center; gap: 14px 30px; flex-wrap: wrap;
+      }
+      .press-band .pl { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; color: var(--muted); }
+      .press-outlets { display: flex; gap: 12px 34px; flex-wrap: wrap; align-items: baseline; }
+      .outlet { font-weight: 900; font-size: 19px; letter-spacing: -.01em; line-height: 1.15; }
+      .outlet small { display: block; font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--red-ink); margin-top: 2px; }
+
+      /* video embeds */
+      .vid-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 22px; }
+      .vid { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+      .vid .frame { aspect-ratio: 16 / 9; background: #000; }
+      .vid iframe { width: 100%; height: 100%; border: 0; display: block; }
+      .vid .vc { padding: 16px 18px 18px; }
+      .vid .vk { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red-ink); }
+      .vid h3 { margin: 7px 0 6px; font-size: 18px; font-weight: 800; line-height: 1.25; }
+      .vid p { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+
+      /* press contact */
+      .press-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 30px; margin-top: 22px; align-items: start; }
+      .press-card { background: var(--dark-band); color: var(--dark-band-ink); border-radius: 10px; padding: 28px; }
+      .press-card h3 { margin: 0 0 10px; font-size: 22px; font-weight: 900; }
+      .press-card p { margin: 0 0 18px; color: var(--dark-band-2); font-size: 15.5px; }
+      .press-card .btn { border-color: var(--dark-band-ink); color: var(--dark-band-ink); }
+      .press-card .btn:hover { background: #2a251d; }
+      .press-card .mail { display: block; margin-top: 14px; font-family: "IBM Plex Mono", monospace; font-size: 14px; color: var(--dark-band-ink); word-break: break-all; }
+      .facts { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+      .facts li { display: flex; gap: 16px; padding: 13px 2px; border-bottom: 1px solid var(--line); align-items: baseline; }
+      .facts .fn { font-weight: 900; font-size: 19px; white-space: nowrap; min-width: 108px; }
+      .facts .fn span { color: var(--red); }
+      .facts .fl { color: var(--ink-2); font-size: 15px; }
+
+      /* footage licensing */
+      .license { margin-top: 22px; border: 1.5px solid var(--ink); border-radius: 10px; background: var(--surface); padding: 26px 28px 24px; box-shadow: var(--shadow); }
+      .license-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+      .license-head h3 { margin: 0; font-size: 22px; font-weight: 900; letter-spacing: -.01em; }
+      .license-head .lk { font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--red-ink); }
+      .license-intro { margin: 8px 0 0; color: var(--ink-2); font-size: 15.5px; max-width: 46em; }
+      .license-list { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+      .license-list li { display: flex; gap: 14px; padding: 14px 0; border-top: 1px solid var(--line); align-items: flex-start; }
+      .license-list .ln { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 13px; color: var(--red-ink); padding-top: 2px; white-space: nowrap; }
+      .license-list strong { color: var(--ink); }
+      .license-list span { color: var(--ink-2); font-size: 15px; line-height: 1.45; }
+      .license-foot { margin-top: 18px; padding-top: 16px; border-top: 2px solid var(--ink); display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+      .license-foot p { margin: 0; font-size: 15px; color: var(--ink-2); }
+      .license-foot .btn { padding: 10px 16px; font-size: 14px; }
+      @media (max-width: 900px) { .license-list { grid-template-columns: 1fr; } .license { padding: 22px 20px; } }
+
+      footer { margin-top: 70px; background: var(--dark-band); color: var(--dark-band-ink); }
+      .foot-in { padding: 44px 0 38px; }
+      .foot-close { font-size: clamp(23px, 3.6vw, 36px); font-weight: 900; line-height: 1.2; max-width: 22em; margin: 0; }
+      .foot-close em { font-style: normal; color: #ff8291; }
+      .foot-row { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 30px; padding-top: 22px; border-top: 1px solid #38332a; font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--dark-band-2); }
+      .foot-row a { color: var(--dark-band-ink); }
+
+      @media (max-width: 900px) {
+        .hero-grid, .split, .music-grid { grid-template-columns: 1fr; }
+        .stats { grid-template-columns: repeat(2, 1fr); }
+        .stat { border-top: 1px solid var(--line); }
+        .stat:nth-child(-n+2) { border-top: none; }
+        .stat:nth-child(odd) { border-left: none; padding-left: 0; }
+        .method { grid-template-columns: 1fr; }
+        .step { border-left: none; border-top: 1px solid var(--line); }
+        .step:first-child { border-top: none; }
+        .case { grid-template-columns: 1fr; gap: 10px; }
+        .kid-grid, .plat-grid, .support-grid, .book-band, .saga-band, .vid-grid, .press-grid { grid-template-columns: 1fr; }
+        .toon { grid-template-columns: 1fr; box-shadow: 4px 4px 0 var(--red); }
+        .toon .stamp { justify-self: start; }
+        nav.main { margin-left: 0; flex-wrap: nowrap; overflow-x: auto; }
+      }
+    </style>
+    <style id="v2-theme">
+      /* ===== V2 — NOV 2026: broadcast dossier look ===== */
+      :root{
+        --v2-ink:#0a0e1a; --v2-paper:#f6f3ec; --v2-red:#e1062c; --v2-gold:#f2a007;
+      }
+      h1,h2,.foot-close,.fuel-card h3,.press-card h3{
+        font-family:"Barlow Condensed","Archivo",sans-serif; text-transform:uppercase; letter-spacing:.01em;
+      }
+      /* dark top bar in both modes */
+      .topbar{ background:#0a0e1a; border-bottom:3px solid var(--v2-red); backdrop-filter:none; }
+      .wordmark{ color:#f6f3ec; } .wordmark .mono{ color:#a49a86; }
+      .rec{ color:#ff8291; }
+      nav.main a{ color:#d8d2c2; } nav.main a:hover{ background:#1d2436; color:#fff; }
+      /* alert ticker */
+      .alert-ticker{ background:var(--v2-red); color:#fff; overflow:hidden; white-space:nowrap; }
+      .alert-ticker .track{ display:inline-block; padding:9px 0; font-family:"IBM Plex Mono",monospace; font-size:12.5px; font-weight:700; letter-spacing:.09em; animation:v2tick 36s linear infinite; }
+      @keyframes v2tick{ from{ transform:translateX(0);} to{ transform:translateX(-50%);} }
+      @media (prefers-reduced-motion: reduce){ .alert-ticker .track{ animation:none; } }
+      .alert-ticker a{ color:#fff; text-decoration:underline; }
+      /* full-bleed dark hero */
+      .hero{ background:linear-gradient(180deg,#0a0e1a 0%,#121a2e 100%); color:#f6f3ec; box-shadow:0 0 0 100vmax #0d1526; clip-path:inset(0 -100vmax); padding:40px 20px 30px; }
+      .hero h1{ font-size:clamp(58px,8.5vw,104px); line-height:.92; }
+      .hero h1 em{ color:#ff3b57; }
+      .hero .lede{ color:#cfc9b8; font-size:19px; } .hero .lede strong{ color:#fff; }
+      .hero .file-line{ color:#9aa3b5; } .hero .file-line b{ color:#ff8291; }
+      .hero .btn-ghost{ color:#f6f3ec; border-color:#f6f3ec; } .hero .btn-ghost:hover{ background:#1d2436; }
+      .hero-fig img{ border-color:#2a3350; }
+      .hero-fig figcaption{ color:#9aa3b5; }
+      .hero .stats{ border-top-color:#f6f3ec; border-bottom-color:#2a3350; }
+      .hero .stat{ border-left-color:#2a3350; }
+      .hero .stat .l{ color:#9aa3b5; }
+      .hero .archive-line{ color:#cfc9b8; }
+      .hero .press-band{ background:#121a2e; border-color:#2a3350; }
+      .hero .press-band .pl{ color:#9aa3b5; } .hero .outlet{ color:#f6f3ec; }
+      .ep-badge{ display:inline-flex; align-items:center; gap:9px; background:var(--v2-red); color:#fff; font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:700; letter-spacing:.1em; padding:8px 13px; border-radius:6px; text-decoration:none; margin-bottom:6px; }
+      .ep-badge:hover{ filter:brightness(1.12); }
+      /* section heads */
+      .sec-head h2{ font-size:clamp(38px,5.4vw,58px); line-height:.98; }
+      .sec-num{ background:var(--ink); color:var(--bg); display:inline-block; padding:5px 10px; border-radius:4px; }
+      @media (prefers-color-scheme: dark){ .sec-num{ background:#f6f3ec; color:#0a0e1a; } }
+      /* NOW SHOWING */
+      .now-grid{ display:grid; grid-template-columns:1.15fr .85fr; gap:18px; margin-top:22px; }
+      .now-card{ background:#0a0e1a; color:#f6f3ec; border-radius:12px; padding:26px; border-top:6px solid var(--v2-red); }
+      .now-card .nk{ font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:#ff8291; }
+      .now-card h3{ font-family:"Barlow Condensed",sans-serif; text-transform:uppercase; font-size:clamp(28px,3.6vw,40px); line-height:1; margin:10px 0 10px; }
+      .now-card p{ color:#cfc9b8; margin:0 0 14px; font-size:15.5px; }
+      .now-card p strong{ color:#fff; }
+      .now-meta{ display:flex; gap:8px; flex-wrap:wrap; margin:0 0 18px; }
+      .now-meta span{ font-family:"IBM Plex Mono",monospace; font-size:11.5px; font-weight:700; letter-spacing:.06em; border:1px solid #2a3350; border-radius:999px; padding:5px 11px; color:#f6f3ec; }
+      .now-card .btn{ border-color:#f6f3ec; color:#f6f3ec; } .now-card .btn:hover{ background:#1d2436; }
+      .now-card .btn-solid{ background:var(--v2-red); border-color:var(--v2-red); color:#fff; }
+      .now-side{ display:grid; gap:18px; }
+      .mini-card{ background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:22px; box-shadow:var(--shadow); }
+      .mini-card .nk{ font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--red-ink); }
+      .mini-card h3{ margin:8px 0 8px; font-size:20px; font-weight:800; line-height:1.2; }
+      .mini-card p{ margin:0; color:var(--ink-2); font-size:15px; }
+      .mini-card ol{ margin:12px 0 0; padding-left:20px; color:var(--ink-2); font-size:15px; }
+      .mini-card ol li{ margin:5px 0; }
+      .track-pick{ display:flex; gap:14px; align-items:center; margin-top:14px; background:var(--red-soft); border:1px solid var(--red); border-radius:10px; padding:14px 16px; }
+      .track-pick .disc{ width:44px; height:44px; flex:none; border-radius:50%; background:var(--ink); color:var(--bg); display:flex; align-items:center; justify-content:center; font-family:"IBM Plex Mono",monospace; font-weight:700; font-size:13px; }
+      .track-pick b{ display:block; font-size:16.5px; } .track-pick span{ font-size:13.5px; color:var(--ink-2); }
+      /* CLIFFHANGER strip */
+      .hook-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:22px; }
+      .hook{ border:2px solid var(--ink); border-radius:12px; padding:24px; background:var(--surface); position:relative; }
+      .hook .hn{ font-family:"Barlow Condensed",sans-serif; font-size:44px; font-weight:700; line-height:1; color:var(--red); }
+      .hook h3{ margin:10px 0 8px; font-size:19px; font-weight:800; }
+      .hook p{ margin:0; color:var(--ink-2); font-size:15px; }
+      .tbc{ margin-top:22px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; background:var(--amber-soft); border:1px solid var(--amber); border-radius:10px; padding:18px 20px; }
+      .tbc .stamp2{ font-family:"IBM Plex Mono",monospace; font-weight:700; letter-spacing:.1em; border:2px solid var(--red); color:var(--red-ink); padding:8px 12px; border-radius:8px; transform:rotate(-2deg); white-space:nowrap; }
+      .tbc p{ margin:0; color:var(--ink-2); font-size:15.5px; flex:1; min-width:220px; } .tbc p strong{ color:var(--ink); }
+      @media (max-width:900px){ .now-grid,.hook-grid{ grid-template-columns:1fr; } .hero{ padding-top:28px; } }
+      /* skip link: a small always-visible utility link in the top bar — reachable by touch, mouse, and keyboard */
+      .skip{ position:static; left:auto; top:auto; width:auto; height:auto; overflow:visible; flex:0 0 100%; text-align:right; font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; color:#a49a86; text-decoration:none; padding:0 0 2px; }
+      .skip:hover{ color:#f6f3ec; text-decoration:underline; }
+      .skip:focus{ position:static; left:auto; top:auto; bottom:auto; width:auto; height:auto; padding:0 0 2px; background:transparent; color:#fff; border:none; border-radius:0; box-shadow:none; text-decoration:underline; z-index:auto; }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#missing">Skip to the missing kids board</a>
+    <header class="topbar">
+      <div class="wrap topbar-in">
+        <a class="wordmark" href="#top"><b>LCPC <span>NETWORK</span></b><span class="mono">KINGSTON, PA</span></a>
+        <span class="rec">654 EXPOSURES</span>
+        <nav class="main" aria-label="Sections">
+          <a href="#now-showing">New Episode</a>
+          <a href="#case-files">Catches</a>
+          <a href="#videos">Videos</a>
+          <a href="#safety-eye">County by County</a>
+          <a href="#missing">Network Alert</a>
+          <a href="#reels">Network Reels</a>
+          <a href="#music">Music</a>
+          <a href="#watch">Watch</a>
+          <a href="#top-videos">Top Videos</a>
+          <a href="#support">Support</a>
+          <a href="#fuel">Fuel the Mission</a>
+          <a href="#press">Press</a>
+        </nav>
+      </div>
+    </header>
+    <div class="alert-ticker" aria-label="Network alert ticker"><span class="track">LCPC NETWORK ALERT&nbsp;&nbsp;•&nbsp;&nbsp;15 KIDS STILL MISSING&nbsp;&nbsp;•&nbsp;&nbsp;12 BROUGHT HOME SAFE&nbsp;&nbsp;•&nbsp;&nbsp;SEEN A CHILD ON THIS BOARD? CALL NCMEC 1-800-843-5678&nbsp;&nbsp;•&nbsp;&nbsp;LUZERNE COUNTY EPISODE 1 — COMING SOON&nbsp;&nbsp;•&nbsp;&nbsp;654 EXPOSURES DOCUMENTED&nbsp;&nbsp;•&nbsp;&nbsp;LCPC NETWORK ALERT&nbsp;&nbsp;•&nbsp;&nbsp;15 KIDS STILL MISSING&nbsp;&nbsp;•&nbsp;&nbsp;12 BROUGHT HOME SAFE&nbsp;&nbsp;•&nbsp;&nbsp;SEEN A CHILD ON THIS BOARD? CALL NCMEC 1-800-843-5678&nbsp;&nbsp;•&nbsp;&nbsp;LUZERNE COUNTY EPISODE 1 — COMING SOON&nbsp;&nbsp;•&nbsp;&nbsp;654 EXPOSURES DOCUMENTED&nbsp;&nbsp;•&nbsp;&nbsp;</span></div>
+
+    <main id="top">
+      <!-- HERO -->
+      <div class="wrap hero">
+        <div class="hero-grid">
+          <div>
+            <p class="file-line">LC Predator Catcher · Est. March 2020 · Luzerne County, PA</p>
+            <a class="ep-badge" href="#now-showing">● COMING SOON — LUZERNE COUNTY EPISODE 1</a>
+            <h1>Exposure is <em>everything.</em></h1>
+            <p class="lede">One man, one camera, and <strong>654 documented exposures</strong> of adults who came to meet children. The chats are logged, the meet is on camera, and the evidence goes to police. This is the home base — every catch, every platform, one place nobody can take down.</p>
+            <div class="cta-row">
+              <a class="btn btn-solid" href="#missing">Missing kids board</a>
+              <a class="btn btn-ghost" href="https://www.facebook.com/MrLCPC" target="_blank" rel="noopener">Follow on Facebook →</a>
+            </div>
+          </div>
+          <figure class="hero-fig">
+            <img src="assets/hero-street.webp" srcset="assets/hero-street-800.webp 800w, assets/hero-street-1280.webp 1280w, assets/hero-street.webp 1920w" sizes="(max-width: 900px) 100vw, 50vw" fetchpriority="high" alt="Illustration of a small Pennsylvania town street at dusk, a lone figure filming under a streetlight outside a corner store" />
+            <figcaption>ILLUSTRATION — A NEPA main street at dusk. The meets happen in plain sight: parking lots, corner stores, fast-food lots.</figcaption>
+          </figure>
+        </div>
+
+        <div class="stats" role="list" aria-label="LCPC by the numbers">
+          <div class="stat" role="listitem"><div class="n">654</div><div class="l">Exposures documented</div></div>
+          <div class="stat" role="listitem"><div class="n">~20</div><div class="l">Charged in Luzerne County off LCPC evidence</div></div>
+          <div class="stat" role="listitem"><div class="n">127.6K</div><div class="l">TikTok followers · @musaharris_lcpc_network</div></div>
+          <div class="stat" role="listitem"><div class="n">2020</div><div class="l">On the street since March of that year</div></div>
+        </div>
+
+        <p class="archive-line">654 documented exposures since 2020 — full archive on YouTube: <a href="https://www.youtube.com/@LCPCNETWORK" target="_blank" rel="noopener">LCPC Network (352 videos)</a> and the <a href="https://www.youtube.com/@LCPredatorCatcher1" target="_blank" rel="noopener">Luzerne channel</a>. An exposure is a documented meet, handed to police with the evidence.</p>
+
+        <div class="press-band" aria-label="Press coverage">
+          <span class="pl">As featured on</span>
+          <div class="press-outlets">
+            <span class="outlet">Law&amp;Crime Network<small>Seven appearances</small></span>
+            <span class="outlet">WBRE<small>I-Team coverage</small></span>
+            <span class="outlet">Gannett<small>Feature story</small></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMING SOON — LUZERNE EPISODE 1 -->
+      <section class="wrap" id="now-showing" aria-labelledby="now-h">
+        <p class="sec-num">Coming Soon</p>
+        <div class="sec-head"><div>
+          <h2 id="now-h">Luzerne County — Episode 1</h2>
+          <p>The home county gets the full treatment: the episode cut is finished first, then the song gets built to match it beat-for-beat. When it drops, the teaser points straight to the full video — on the LCPC Network channel and the Luzerne channel. Not posted yet — both channels below are where it lands.</p>
+        </div></div>
+        <div class="now-grid">
+          <div class="now-card">
+            <span class="nk">The Full Episode · 3:48 · Cut locked</span>
+            <h3>The cut lands on one line: “574 is the truth”</h3>
+            <p>The edit is locked — the song gets built around it, not the other way around. The big landing hits at <strong>3:39</strong>, and the end cards will send you to the <strong>full video on both YouTube channels</strong> and to the catch songs.</p>
+            <div class="now-meta"><span>RUNTIME 3:48</span><span>16:9 + 9:16</span><span>BEAT-MAPPED CUT</span><span>DROPPING SOON</span></div>
+            <div class="cta-row">
+              <a class="btn btn-solid" href="https://www.youtube.com/@LCPCNETWORK" target="_blank" rel="noopener">LCPC Network on YouTube →</a>
+              <a class="btn" href="https://www.youtube.com/@LCPredatorCatcher1" target="_blank" rel="noopener">Luzerne channel →</a>
+            </div>
+          </div>
+          <div class="now-side">
+            <div class="mini-card">
+              <span class="nk">The Teaser · 59.85s</span>
+              <h3>How every episode teaser opens now</h3>
+              <ol>
+                <li><strong>Sneak-peek intro</strong> — the new standard open for all episode teasers</li>
+                <li><strong>Musa's announcement</strong> — the winner, in his own words</li>
+                <li><strong>The 10 faces</strong></li>
+                <li><strong>End card</strong> — full video + the music</li>
+              </ol>
+            </div>
+            <div class="mini-card">
+              <span class="nk">The Soundtrack</span>
+              <h3>Song built to the cut</h3>
+              <p>Gemini builds the ending song around the finished edit, beat-for-beat. The track picked for Episode 1:</p>
+              <div class="track-pick"><span class="disc">♪</span><div><b>“Evidence Don't Lie”</b><span>3:03 · from the LCPC Network music catalog — the Episode 1 song</span></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLIFFHANGER SERIES -->
+      <section class="wrap" aria-labelledby="hook-h">
+        <p class="sec-num">The Short Series</p>
+        <div class="sec-head"><div>
+          <h2 id="hook-h">Built to leave you hanging</h2>
+          <p>Short, free, pocket-sized clips — and every single one ends mid-story. That's the rule, and that's what makes people come back for the next one.</p>
+        </div></div>
+        <div class="hook-grid">
+          <div class="hook"><div class="hn">01</div><h3>Pocket-sized</h3><p>Short vertical clips made for the phone — watch one in under a minute, anywhere.</p></div>
+          <div class="hook"><div class="hn">02</div><h3>Ends mid-story</h3><p>No endings given away. Each clip stops on the hook — the question the next clip answers.</p></div>
+          <div class="hook"><div class="hn">03</div><h3>Next clip answers it</h3><p>The cliffhanger is the engine: come back for the next clip, then the next episode.</p></div>
+        </div>
+        <div class="tbc">
+          <span class="stamp2">TO BE CONTINUED →</span>
+          <p><strong>Episode 1 ends asking:</strong> what happens when it's someone the kid already trusts? <strong>Episode 2 — “The Secret”</strong> — picks it up, and ends the same way: on the hook.</p>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="wrap" aria-labelledby="how-h">
+        <p class="sec-num">The Method</p>
+        <div class="sec-head"><div>
+          <h2 id="how-h">How a catch works</h2>
+          <p>It started in 2020, after older men messaged Musa's then-16-year-old daughter. He has run it the same way since — one-man operation, everything documented, nothing hidden.</p>
+        </div></div>
+        <div class="method">
+          <div class="step">
+            <span class="no">STEP 01</span>
+            <h3>The chats</h3>
+            <p>Posing as a 14-to-16-year-old online, Musa lets the other man set every term. The age is stated up front, in the source's exact words — and they keep writing anyway. Every message is timestamped and saved.</p>
+          </div>
+          <div class="step">
+            <span class="no">STEP 02</span>
+            <h3>The meet</h3>
+            <p>They pick the place — a Turkey Hill, a parking lot, a street corner. Musa is waiting with the camera rolling. The confrontation is the record: their words, their story changing in real time.</p>
+          </div>
+          <div class="step">
+            <span class="no">STEP 03</span>
+            <h3>The handoff</h3>
+            <p>Full transcripts go to police. Luzerne County prosecutes off this evidence — roughly 20 men charged. The video stays public, because a courtroom is private and a search engine is forever.</p>
+          </div>
+        </div>
+        <div class="creed">
+          <p>“Predators are more afraid of getting caught by me than of getting locked up. Jail is private. <em>Exposure is forever</em> — the job knows, the family knows, the whole town knows.”</p>
+          <p class="sig">— MUSA M. HARRIS, LC PREDATOR CATCHER</p>
+        </div>
+      </section>
+
+      <!-- CATCHES -->
+      <section class="wrap" id="case-files" aria-labelledby="catches-h">
+        <p class="sec-num">Case Files</p>
+        <div class="sec-head"><div>
+          <h2 id="catches-h">The catches that built the name</h2>
+          <p>654 exposures and counting. These are the ones Luzerne County — and the country — remembers. The full archive lives on YouTube; search any case number there.</p>
+        </div></div>
+
+        <div class="tools">
+          <input type="search" id="caseSearch" placeholder="Search case files — try “cop”, “coroner”, “Dunmore”…" aria-label="Search case files" />
+          <div class="chipset" role="group" aria-label="Filter case files">
+            <button class="chip" data-filter="all" aria-pressed="true">All</button>
+            <button class="chip" data-filter="convicted" aria-pressed="false">Convicted</button>
+            <button class="chip" data-filter="collab" aria-pressed="false">Collabs</button>
+            <button class="chip" data-filter="local" aria-pressed="false">Hometown</button>
+          </div>
+        </div>
+
+        <div class="case-list" id="caseList">
+          <article class="case" data-cat="convicted local" data-text="leonard galli ex cop police officer turkey hill grindr exeter catch 42 guilty sentenced registered">
+            <div class="cno">CATCH #42<small>AUG 2020 · LUZERNE CO.</small></div>
+            <div>
+              <h3>The ex-cop — Leonard Galli</h3>
+              <p>A former Exeter Township police officer, caught in a Grindr sting and confronted at a Turkey Hill. The man who was supposed to enforce the law, meeting who he believed was a minor. This is “the turn” — the catch that made Musa start trusting police, and still the most famous catch in Luzerne County.</p>
+              <div class="tags"><span class="tag">Ex–police officer</span><span class="tag">Turkey Hill meet</span><span class="tag">Covered by WBRE</span></div>
+            </div>
+            <div class="outcome guilty"><div class="ol">Outcome</div><div class="ov">Pleaded guilty to felony solicitation offenses. Sentenced March 2023 — prison time plus lifetime registration.</div></div>
+          </article>
+
+          <article class="case" data-cat="local" data-text="kenneth butler 61 ocean chase law and crime sam goldberg beach">
+            <div class="cno">HEADLINE<small>LAW&amp;CRIME NETWORK</small></div>
+            <div>
+              <h3>Kenneth Butler, 61 — the ocean chase</h3>
+              <p>The catch that ran — literally. A pursuit that ended at the ocean, and the footage that put LCPC on the Law&amp;Crime Network with Sam Goldberg — the first of seven Law&amp;Crime appearances. This is the one people stop him about.</p>
+              <div class="tags"><span class="tag">Age 61</span><span class="tag">Chase on camera</span><span class="tag">National TV</span></div>
+            </div>
+            <div class="outcome"><div class="ol">Outcome</div><div class="ov">Aired nationally on the Law&amp;Crime Network. Full video in the YouTube archive.</div></div>
+          </article>
+
+          <article class="case" data-cat="collab" data-text="catch 348 bergen county new jersey predator poachers alex rosen collab">
+            <div class="cno">CATCH #348<small>BERGEN CO., NJ</small></div>
+            <div>
+              <h3>The Bergen County collab</h3>
+              <p>LCPC crossed state lines to run a joint catch with Predator Poachers' Alex Rosen in Bergen County, New Jersey — two networks, one meet. Proof the model travels: the chats, the camera, the handoff work anywhere.</p>
+              <div class="tags"><span class="tag">Joint operation</span><span class="tag">Predator Poachers</span><span class="tag">New Jersey</span></div>
+            </div>
+            <div class="outcome"><div class="ol">Outcome</div><div class="ov">Documented jointly by both networks. Watch it on the LCPC Network and Predator Poachers channels.</div></div>
+          </article>
+
+          <article class="case" data-cat="local" data-text="bradford county coroner resigned kingston video official">
+            <div class="cno">HEADLINE<small>BRADFORD CO. · KINGSTON VIDEO</small></div>
+            <div>
+              <h3>The coroner who resigned</h3>
+              <p>A Bradford County coroner, caught on a Kingston video. He held one of the most trusted offices in his county — and resigned after the exposure. No courtroom required: the video did what the video does.</p>
+              <div class="tags"><span class="tag">Public official</span><span class="tag">Resigned</span><span class="tag">Kingston, PA</span></div>
+            </div>
+            <div class="outcome"><div class="ol">Outcome</div><div class="ov">Resigned from office following the published catch.</div></div>
+          </article>
+
+          <article class="case" data-cat="local" data-text="catch 649 dunmore july 4 2026 independence day">
+            <div class="cno">CATCH #649<small>JULY 4, 2026 · DUNMORE</small></div>
+            <div>
+              <h3>Dunmore, on the Fourth of July</h3>
+              <p>While Dunmore was celebrating Independence Day 2026, a man showed up to meet a minor — and met Musa instead. Six hundred forty-nine exposures in, the work hasn't slowed down.</p>
+              <div class="tags"><span class="tag">Dunmore, PA</span><span class="tag">July 4, 2026</span><span class="tag">Recent</span></div>
+            </div>
+            <div class="outcome"><div class="ol">Outcome</div><div class="ov">Documented and published on the LCPC channels. Evidence handed to police, as always.</div></div>
+          </article>
+
+          <article class="case" data-cat="local" data-text="yuck mouth hometown luzerne county local legend">
+            <div class="cno">HOMETOWN<small>LUZERNE CO.</small></div>
+            <div>
+              <h3>“Yuck Mouth”</h3>
+              <p>April 2020 · Wilkes-Barre · 5 a.m. meet. Ask anybody in Luzerne County — the hometown catches hit different. This is the one locals bring up by name, the story that travels by word of mouth faster than any algorithm. Some catches make the news. This one made the town talk.</p>
+              <div class="tags"><span class="tag">Local legend</span><span class="tag">Luzerne County</span></div>
+            </div>
+            <div class="outcome"><div class="ol">Outcome</div><div class="ov">Full confrontation on YouTube — <a href="https://youtu.be/LkOyufsF9KM" target="_blank" rel="noopener">watch “Yuck Mouth” →</a></div></div>
+          </article>
+        </div>
+        <p style="margin-top:18px;"><a class="btn btn-solid" href="https://www.youtube.com/@LCPCNETWORK" target="_blank" rel="noopener">Full archive — 654 cases on YouTube →</a></p>
+        <p class="no-results" id="noResults" aria-live="polite">No case files match that search. Try a name, a town, or a case number.</p>
+
+        <div class="toon">
+          <div>
+            <h3>Next: the catches, animated</h3>
+            <p>The famous catches are being retold as an animated series — same stories, same comedy, drawn instead of filmed. Episode one is the pilot the whole county knows: <strong>Catch #42, the ex-cop</strong>, with “Yuck Mouth” on the slate right behind it.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS -->
+      <section class="wrap" id="videos" aria-labelledby="videos-h">
+        <p class="sec-num">Watch the Work</p>
+        <div class="sec-head"><div>
+          <h2 id="videos-h">The footage, right here</h2>
+          <p>No summaries, no secondhand clips — press play. A catch from the first year, the documentary the hometown case deserved, and the song written for Lala Clark, all streaming from the LCPC channels.</p>
+        </div></div>
+        <div class="vid-grid">
+                    <article class="vid">
+            <div class="frame">
+              <iframe src="https://www.youtube-nocookie.com/embed/LkOyufsF9KM" title="Yuck Mouth — April 2020, Wilkes-Barre" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="vc">
+              <span class="vk">April 2020 · Wilkes-Barre · 5 a.m. meet</span>
+              <h3>“Yuck Mouth” — the hometown legend</h3>
+              <p>The first one the neighborhood still talks about. Jonathan Renoll, April 2020, Wilkes-Barre — a 5 a.m. meet that set the template for everything after it. The throwback that launched the weekly series.</p>
+            </div>
+          </article>
+
+          <article class="vid">
+            <div class="frame">
+              <iframe src="https://www.youtube-nocookie.com/embed/FsvZmVjObBI" title="The Deaf Teen the System Ignored: How Wilkes-Barre Failed Lala Clark" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="vc">
+              <span class="vk">Mini-documentary · Feb 2026</span>
+              <h3>The Deaf Teen the System Ignored</h3>
+              <p>The full LCPC mini-doc on La'Niyah “Lala” Clark — the Wilkes-Barre case that started the missing kids board. How the first 48 hours were lost, and why speed is the whole point now.</p>
+            </div>
+          </article>
+
+          <article class="vid">
+            <div class="frame">
+              <iframe src="https://www.youtube-nocookie.com/embed/Ao1ChgQHf74" title="Fly High La'Niyah — The Pages Cried Her Name" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="vc">
+              <span class="vk">The Music · Apr 2026</span>
+              <h3>“Fly High La'Niyah”</h3>
+              <p>The song Musa wrote for Lala — 15 minutes, sung in sections, from the LCPC Network music catalog. The catches built the audience; the music carries the stories further.</p>
+            </div>
+          </article>
+
+          <article class="vid">
+            <div class="frame">
+              <iframe src="https://www.youtube-nocookie.com/embed/IKzAYGAjTX0" title="Catch #36 — Thomas, July 2020" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="vc">
+              <span class="vk">Catch #36 · July 2020 — details unconfirmed</span>
+              <h3>“Thomas” — from the first year</h3>
+              <p>A 37-year-old who came to meet a 15-year-old, on camera in July 2020 — months after LCPC started, when it was one man, one phone, and no audience yet. The method hasn't changed since. <strong>Note: Catch #36 — details unconfirmed.</strong></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PROJECT SAFETY EYE: COUNTY BY COUNTY -->
+      <section class="wrap" id="safety-eye" aria-labelledby="pse-h">
+        <p class="sec-num">Project Safety Eye</p>
+        <div class="sec-head"><div>
+          <h2 id="pse-h">County by County</h2>
+          <p>A weekly series walking Pennsylvania's Megan's Law registry, one county at a time — every name, town, and tier read straight from the official registry, so you can check your own street. New episode every <strong>Friday</strong>. <strong>Episode 1: Lackawanna County — now live.</strong> <a href="https://youtu.be/4jjuTkWN35E" target="_blank" rel="noopener" style="font-weight:700;">Watch it on YouTube →</a> Next county: announced soon — vote in the comments on the LC Predator Catcher page.</p>
+        </div></div>
+        <div class="split">
+          <figure>
+            <img src="assets/board.webp" srcset="assets/board-800.webp 800w, assets/board-1280.webp 1280w, assets/board.webp 1920w" sizes="(max-width: 900px) 100vw, 50vw" alt="Illustration of a lamplit board covered with silhouette flyers — every face on the registry, made visible" />
+            <figcaption>EVERY EPISODE PUTS THE COUNTY'S REGISTRY ON THE BOARD — NAMES, TOWNS, TIERS, AND THE FACES OF THE CONVICTED.</figcaption>
+          </figure>
+          <div>
+            <h3 style="margin:0;font-size:20px;font-weight:800;">How every episode is built</h3>
+            <ul class="rules">
+              <li><strong>Registry first.</strong> The count comes from the official Megan's Law pull — and one unchecked box on that search can hide dozens of names, including people incarcerated out of county. Every episode shows you the box.</li>
+              <li><strong>Faces included.</strong> Convicted men on the registry get full face cards — name, town, tier, charges, spoken out loud. Convicted men missing from the registry get a card too, stamped with why: locked up elsewhere, pled down, never registered.</li>
+              <li><strong>Compliance flags shown.</strong> If the registry flags a man for failure to register or bad information, the card says so — locals recognize faces, and real tips go to police, never the comments.</li>
+              <li><strong>No addresses, ever.</strong> Names, towns, and tiers are public record. Street addresses and whereabouts posted anywhere get removed — that's the line, and it doesn't move.</li>
+            </ul>
+            <div class="vote-box">
+              <h3>Which county next?</h3>
+              <p>The comments pick it. Trailer votes, launch-Reel votes, and full-video comments all count together, and the tally closes every Wednesday. Drop your county's name where the series lives — on the LC Predator Catcher Facebook page.</p>
+              <a class="btn btn-ghost" href="https://www.facebook.com/MrLCPC" target="_blank" rel="noopener">Find the series on Facebook →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MISSING KIDS BOARD -->
+      <section class="wrap" id="missing" aria-labelledby="missing-h">
+        <p class="sec-num">Project Safety Eye — LCPC Network Alert</p>
+        <div class="sec-head"><div>
+          <h2 id="missing-h">LCPC Network Alert</h2>
+          <p>Just like an Amber Alert, this is the LCPC Network alert for missing kids — bringing them back home safe and sound. Nearly 150,000 people follow the Facebook page alone — and the network reaches further on TikTok, YouTube, and Rumble. When a child is missing, that reach is a search party. Still-missing kids lead the board, latest first, nationwide — each one verified against an official source: NCMEC, police, or an AMBER / Silver Alert. Every card leads with the photo — the face is the whole point. Statuses change fast, so always confirm with the official source.</p>
+          <p class="count-strip">15 still missing · 12 brought home safe · Updated November 6, 2026</p>
+        </div></div>
+
+        <div class="board-note">
+          <span class="ph">SEEN A CHILD ON THIS BOARD?</span>
+          <p><strong>Call the National Center for Missing &amp; Exploited Children at <a href="tel:+18008435678">1-800-843-5678</a> (1-800-THE-LOST)</strong> or your local police — immediately. Do not post addresses or sightings in social-media comments. Tips go to police, not threads.</p>
+        </div>
+
+        <div class="tools">
+          <div class="chipset" role="group" aria-label="Filter the board" aria-live="polite">
+            <button class="chip" data-kfilter="all" aria-pressed="false">Whole board</button>
+            <button class="chip" data-kfilter="active" aria-pressed="true">Still missing</button>
+            <button class="chip" data-kfilter="found" aria-pressed="false">Brought home safe</button>
+            <button class="chip" data-kfilter="memorial" aria-pressed="false">Why this board exists</button>
+          </div>
+        </div>
+
+        <div class="kid-grid" id="kidGrid">
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/hadley-brown.jpg" alt="Photo of Hadley Daniel Jesse Brown, 17, of St. Anthony, Idaho — photo released by the Fremont County Sheriff's Office" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Hadley Daniel Jesse Brown</h3>
+            <div class="meta">AGE 17 · ST. ANTHONY, IDAHO</div>
+            <p>Last seen Thursday, Nov 5, 2026, around 11:30 p.m. in St. Anthony. 5′6″, 125 lbs, blue eyes, pierced ears. Sword tattoo with the words “Blurry Fox, Spider.” Last seen wearing black sweatpants and a brown sweater. Police have not classified him as a runaway.</p>
+            <div class="foot"><strong>Tips: Fremont County Sheriff's Office <a href="tel:+12086244482">208-624-4482</a>, option 1. Tipsters can remain anonymous.</strong><br />Source: Fremont County Sheriff's Office · Nov 6, 2026<br /><a href="https://facebook.com/reel/1466074705490231/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/zoey-mcbrien.jpg" alt="Photo of Zoey Grace McBrien, 16, of Post Falls, Idaho — photo from the official NCMEC poster" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Zoey Grace McBrien</h3>
+            <div class="meta">AGE 16 · POST FALLS, IDAHO</div>
+            <p>Last seen Wednesday, Oct 14, 2026, in Post Falls, Idaho. The official NCMEC poster gives no physical description.</p>
+            <div class="foot"><strong>Tips: Post Falls Police Department <a href="tel:+12087733517">208-773-3517</a> or the NCMEC 24-hour line <a href="tel:+18008435678">1-800-843-5678</a>.</strong><br />Source: NCMEC poster NCMC 2105143 · Nov 2026<br /><a href="https://facebook.com/reel/1096281040072170/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a><br /><a href="https://www.missingkids.org/poster/NCMC/2105143/1" target="_blank" rel="noopener">View the official NCMEC poster</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/makenzie-fielder.jpg" alt="Photo of Makenzie Fielder, 14, of Philadelphia, Pennsylvania — photo from the Philadelphia Police Department appeal" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Makenzie Fielder</h3>
+            <div class="meta">AGE 14 · PHILADELPHIA, PENNSYLVANIA</div>
+            <p>Last seen Sunday, Nov 1, 2026, at 9:00 p.m. on the 79xx block of Fayette Street, Philadelphia. She could be in the area of the 56xx block of Blakemore Street. 5′2″, 120 lbs, wearing all black clothing. The Philadelphia Police Department appeal gives no hair or eye color.</p>
+            <div class="foot"><strong>Tips: Northwest Detectives <a href="tel:+12156863353">215-686-3353</a> or 911, or the PPD tip line <a href="tel:+12156868477">215-686-TIPS</a> (8477).</strong><br />Source: Philadelphia Police Department · Nov 5, 2026<br /><a href="https://facebook.com/reel/2363266657774945/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/dakota-rubel.jpg" alt="Photo of Dakota Rubel, 16, of Wesley Chapel, Florida — photo released by the Pasco Sheriff's Office" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Dakota Rubel</h3>
+            <div class="meta">AGE 16 · WESLEY CHAPEL, FLORIDA</div>
+            <p>Last seen Thursday, Oct 29, about 6:00 p.m. in the Dancing Bay Lane area of Wesley Chapel. 5′6″, about 180 lbs, brown hair, green eyes. It is unknown what she was last seen wearing. The Pasco Sheriff's Office lists her as a missing/runaway 16-year-old.</p>
+            <div class="foot"><strong>Tips: Pasco Sheriff's Non-Emergency Line <a href="tel:+17278478102">727-847-8102</a>, option 7, or report tips at <a href="https://pascosheriff.com/tips">PascoSheriff.com/tips</a>.</strong><br />Source: Pasco Sheriff's Office · Nov 4, 2026<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/zahmyla-manuel.png" alt="Photo of Zahmyla Hilda Manuel, 13, of New Brunswick, New Jersey, from her missing-child flyer" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Zahmyla Hilda Manuel</h3>
+            <div class="meta">AGE 13 · NEW BRUNSWICK, NEW JERSEY</div>
+            <p>Last seen Sunday, Nov 1, about 2:00 p.m. near Wright Place. Black, 5′5″, 130 lbs.</p>
+            <div class="foot"><strong>Tips: Call 911 or the New Brunswick Police Department.</strong><br />Source: New Brunswick Police Department<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/kenasha-johnson.jpg" alt="Photo of Kenasha Johnson, 16, of Gray, Louisiana" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Kenasha Johnson</h3>
+            <div class="meta">AGE 16 · GRAY, LOUISIANA</div>
+            <p>Last seen Sunday, Nov 1, about 11:00 p.m. at home in Gray, Lafourche Parish. 4′10″, about 90 lbs, red hair. Last seen wearing red leggings and a red robe.</p>
+            <div class="foot"><strong>Tips: Lafourche Parish Sheriff <a href="tel:+19855322808">(985) 532-2808</a> or 911.</strong><br />Source: Lafourche Parish Sheriff's Office<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-fallback"><b>Michael Sanchez</b><span>Photo not released — share the name</span></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing — critically missing · text-card alert</span>
+            <h3>Michael Sanchez</h3>
+            <div class="meta">AGE 16 · PICO RIVERA, CALIFORNIA</div>
+            <p>Last seen about 5:30 p.m. Friday, Oct 30, near the 9300 block of Sierra Vista Circle. 5′10″, 135 lbs, wears glasses. Gray hoodie, black jeans. The LA County Sheriff's Department lists him as critically missing. No official photo has been released, so this alert runs as a text card — the moment a photo surfaces, a photo version goes up.</p>
+            <div class="foot"><strong>Tips: Det. Arteaga, LASD Pico Rivera Station <a href="tel:+15629492421">562-949-2421</a>, or 911.</strong><br />Source: LA County Sheriff's Department</div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/kaydence-lane.jpg" alt="Photo of Kaydence Lane, 14, of Bedford, Indiana — photo from the Indiana Silver Alert" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing — Indiana Silver Alert</span>
+            <h3>Kaydence Lane</h3>
+            <div class="meta">AGE 14 · BEDFORD, INDIANA</div>
+            <p>Last seen about 8 a.m. Oct 28. 5′2″, 115 lbs, black hair, brown eyes. Black tank top, navy sweatpants with yellow lettering and a tiger on the back. Believed in extreme danger and may require medical assistance.</p>
+            <div class="foot"><strong>Tips: Lawrence County Sheriff <a href="tel:+18122772002">812-277-2002</a> or 911.</strong><br />Source: Indiana Silver Alert · <a href="https://www.facebook.com/108575388094874/posts/1422054703426095" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/micah-ellington.jpg" alt="Photo of Micah R Ellington, 13, of Mount Vernon, New York" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Micah R Ellington</h3>
+            <div class="meta">AGE 13 · MOUNT VERNON, NEW YORK</div>
+            <p>Missing since Oct 27. Last seen in a black hooded sweatshirt, a yellow and navy shirt, and blue striped pajama pants.</p>
+            <div class="foot"><strong>Tips: NY Missing Persons Clearinghouse <a href="tel:+18003463543">1-800-346-3543</a> · NCMEC <a href="tel:+18008435678">1-800-843-5678</a>.</strong><br /><a href="https://www.facebook.com/108575388094874/posts/1421519166812982" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame contain"><img src="assets/ware-siblings.jpg" alt="Photos of the six Ware siblings, of Crossville, Tennessee" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing — 6 siblings</span>
+            <h3>The Ware Siblings</h3>
+            <div class="meta">AGES 16–9 MO · CROSSVILLE, TENNESSEE</div>
+            <p>Anahi, 16 · Maximo, 10 · Abalino Almaraz-Ware, 8 · Luisa Almaraz-Ware, 5 · Paloma Ware, 3 · Felix Ware, 9 months. Missing since Oct 22, taken by non-custodial parent Misty Ware, who has a felony custodial interference warrant. The red Chrysler Town &amp; Country minivan was recovered Oct 27. Investigators believed she may have been headed toward Mexico (Oct 26 CCSO release) — as of Oct 30, officials have not confirmed where Ware and the children may be headed.</p>
+            <div class="foot"><strong>Tips: Cumberland County Sheriff <a href="tel:+19314846176">931-484-6176</a> (Sgt. Thomas Henderson) or 911.</strong><br /><a href="https://facebook.com/reel/1517022666928017/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/maria-loja-guasco.jpg" alt="Photo of Maria Loja Guasco, 17, of Newark, New Jersey" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Maria Loja Guasco</h3>
+            <div class="meta">AGE 17 · NEWARK, NEW JERSEY</div>
+            <p>Missing since Oct 27, last seen about 2:50 p.m. near South St &amp; Orchard St. Hispanic, 5′2″, about 160 lbs, black hair, brown eyes. Pink shirt, gray pants, pink sandals, face covered in red makeup.</p>
+            <div class="foot"><strong>Tips: Newark PD Crime Stoppers <a href="tel:+18776958477">1-877-695-8477</a>.</strong><br /><a href="https://facebook.com/reel/1608855310568151/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/gioannah-gardner.jpg" alt="Photo of Gioannah Gardner, 16, of Columbus, Georgia" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing — reported runaway</span>
+            <h3>Gioannah Gardner</h3>
+            <div class="meta">AGE 16 · COLUMBUS, GEORGIA</div>
+            <p>Reported runaway Oct 28, last seen about 9 p.m. Oct 28 in the 3700 block of Cusseta Road. Black, 5′6″, 118 lbs, brown eyes, black hair. Black jacket, pink pajama pants.</p>
+            <div class="foot"><strong>Tips: Columbus PD SVU <a href="tel:+17062253449">706-225-3449</a> · Det. M. M. Ruiz <a href="tel:+17062254379">706-225-4379</a>.</strong><br /><a href="https://facebook.com/reel/2308408923277677/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/jharmony-price.jpg" alt="Photo of J’Harmony Price" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>J'Harmony Price</h3>
+            <div class="meta">AGE 12 · PORTSMOUTH, OHIO</div>
+            <p>Missing since 8 a.m. Oct 29, from the 1300 block of Waller St. 5′1″, 115 lbs, brown hair and eyes. Black hoodie, black sweatpants.</p>
+            <div class="foot"><strong>Tips: Det. Pistole <a href="tel:+17403534101">(740) 353-4101</a> or <a href="tel:+17403541600">(740) 354-1600</a>.</strong><br /><a href="https://facebook.com/reel/1825685942039849/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><img src="assets/ezekial-warren.jpg" alt="Photo of Ezekial Warren" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing</span>
+            <h3>Ezekial Warren</h3>
+            <div class="meta">AGE 9 · ATLANTA, GEORGIA</div>
+            <p>Last seen about 8 p.m. Thursday, Oct 29, in the 4600 block of Edwina Lane SW. Black Spider-Man jacket, black shorts. About 5′3″, about 70 lbs, black hair, brown eyes.</p>
+            <div class="foot"><strong>Tips: Call 911.</strong><br /><a href="https://facebook.com/reel/4509041319338238/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a></div>
+          </article>
+
+          <article class="kid" data-kcat="active">
+            <div class="reel-frame"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffacebook.com%2Freel%2F29150242124634954%2F&amp;show_text=false" title="Jaime Anthony Martinez alert reel" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <span class="status"><span aria-hidden="true">●</span> Still missing — critically missing · text-card alert</span>
+            <h3>Jaime Anthony Martinez</h3>
+            <div class="meta">AGE 11 · EAST LOS ANGELES, CALIFORNIA</div>
+            <p>Last seen about 4 a.m. Friday, Oct 30, in the 4500 block of Sixth Street. Hispanic, 5′0″, 105 lbs, black hair, brown eyes. Gray “Griffith” shirt, blue pants. Critically missing. No official photo has been released, so this alert runs as a text card — the moment a photo surfaces, a photo version goes up.</p>
+            <div class="foot"><strong>Tips: East LA Sheriff's Station <a href="tel:+13232644151">323-264-4151</a> · Crime Stoppers <a href="tel:+18002228477">800-222-8477</a>.</strong><br /><a href="https://facebook.com/reel/29150242124634954/" target="_blank" rel="noopener">Watch the alert on Facebook</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-fallback"><b>Alonzo Morris</b><span>Photo not released — share the name</span></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Alonzo Morris</h3>
+            <div class="meta">AGE 12 · KANSAS CITY, MISSOURI</div>
+            <p>Alonzo has been found safe. The Kansas City Police Department confirmed he was found safe on November 5, 2026. No official photo of Alonzo has been released, so his card runs as text only. Thank you to everyone who shared his alert.</p>
+            <div class="foot">Confirmed by the Kansas City Police Department · Nov 5, 2026<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/rianah-herron.jpg" alt="Photo of Rianah “Riri” Herron, 11, of Lancaster, California" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Rianah “Riri” Herron</h3>
+            <div class="meta">AGE 11 · LANCASTER, CALIFORNIA</div>
+            <p>Rianah has been found safe. The Los Angeles County Sheriff's Department, Lancaster Station confirmed she was located on November 5, 2026. Thank you to everyone who shared her alert.</p>
+            <div class="foot">Confirmed by the Los Angeles County Sheriff's Department, Lancaster Station · Nov 5, 2026<br /><a href="https://facebook.com/reel/4623240637996411/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/travis-smith.jpg" alt="Photo of Travis Smith, 12, of Anchorage, Alaska — photo courtesy of the Anchorage Police Department" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Travis Smith</h3>
+            <div class="meta">AGE 12 · ANCHORAGE, ALASKA</div>
+            <p>Travis has been found safe. The Anchorage Police Department confirmed he was located safe on November 5, 2026 (APD Case 25-31936). Thank you to everyone who shared his alert.</p>
+            <div class="foot">Confirmed by the Anchorage Police Department · Nov 5, 2026 · APD Case 25-31936<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/timia-clark.jpg" alt="Photo of Timia Clark, 12, of Gardena, California" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Timia Clark</h3>
+            <div class="meta">AGE 12 · GARDENA, CALIFORNIA</div>
+            <p>Timia has been found safe. The Los Angeles County Sheriff's Department confirmed she was found safe on November 3, 2026 (about 10:40 p.m.), in an official Nixle update. Thank you to everyone who shared her alert.</p>
+            <div class="foot">Confirmed by the LA County Sheriff's Department · Nov 3, 2026<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/roman-heilman.jpg" alt="Photo of Roman Heilman, 6, of Louisa, Kentucky" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Roman Heilman</h3>
+            <div class="meta">AGE 6 · LOUISA, KENTUCKY</div>
+            <p>Roman has been found safe. Kentucky State Police confirmed on November 3, 2026, that Roman, who was reported missing in Louisa, Ky. on Nov. 1, 2026, has been found safe. Thank you to everyone who shared his alert.</p>
+            <div class="foot">Confirmed by Kentucky State Police · Nov 3, 2026<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/ava-hasselberger.jpg" alt="Ava Hasselberger — photo released by the Anne Arundel County Police Department" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Ava Hasselberger</h3>
+            <div class="meta">AGE 15 · GLEN BURNIE, MARYLAND</div>
+            <p>Ava has been located and reunited with her family. The Anne Arundel County Police Department confirmed she was found safe on November 2, 2026. Thank you to everyone who shared her alert.</p>
+            <div class="foot">Confirmed by the Anne Arundel County Police Department · Nov 2, 2026<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/dalyia-james.jpg" alt="Dalyia James — photo released by the McDonough Police Department" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Dalyia James</h3>
+            <div class="meta">AGE 17 · MCDONOUGH, GEORGIA</div>
+            <p>Dalyia has been found safe. The McDonough Police Department confirmed she was located on November 2, 2026, after she was reported critically missing over Halloween. Thank you to everyone who shared her alert.</p>
+            <div class="foot">Confirmed by the McDonough Police Department · Nov 2, 2026<br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-fallback"><b>Corbin Bilden</b><span>Photo not released — share the name</span></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Corbin Bilden</h3>
+            <div class="meta">AGE 16 · MAGNOLIA, TEXAS</div>
+            <p>Corbin has been found safe. The Montgomery County Sheriff's Office confirmed he was found safe on October 26, 2026, in an update headed “Update Corbin has been Found Safe” (Case #26A365155). Thank you to everyone who shared his alert.</p>
+            <div class="foot">Confirmed by the Montgomery County Sheriff's Office · Oct 26, 2026 · Case #26A365155<br /><a href="https://facebook.com/100068647370732/posts/pfbid0gzAzuo6qR7JYWG3vV5g6Q6yqf8LtDZmUfFsQv8W2Jx2ucV1sUwFVp2VdZXwHHRoql/" target="_blank" rel="noopener">View the alert post on Facebook</a><br /><a href="https://www.missingkids.org" target="_blank" rel="noopener">Check current status at NCMEC</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffacebook.com%2Freel%2F1840101797006872%2F&amp;show_text=false" title="Joziah Figueroa and Liliana Dicenso alert reel" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Joziah Figueroa &amp; Liliana Dicenso</h3>
+            <div class="meta">AGES 15 &amp; 14 · BOSTON, MASSACHUSETTS</div>
+            <p>Joziah and Liliana have been found safe. Boston Police confirmed they were located on November 2, 2026. Thank you to everyone who shared their alert.</p>
+            <div class="foot">Confirmed by the Boston Police Department · Nov 2, 2026<br /><a href="https://facebook.com/reel/1840101797006872/" target="_blank" rel="noopener">Watch the alert on Facebook</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/trey-sanderson.jpg" alt="Photo of Trey Sanderson, 15, of Brockton, Massachusetts" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Trey Sanderson</h3>
+            <div class="meta">AGE 15 · BROCKTON, MASSACHUSETTS</div>
+            <p>Trey has been found safe. Brockton Police confirmed he was located on November 2, 2026. Thank you to everyone who shared his alert.</p>
+            <div class="foot">Confirmed by the Brockton Police Department · Nov 2, 2026<br /><a href="https://facebook.com/reel/1464963225609097/" target="_blank" rel="noopener" class="reel-link">Watch the reel on Facebook</a></div>
+          </article>
+
+          <article class="kid found" data-kcat="found">
+            <div class="reel-frame"><img src="assets/annalyse-findley.jpg" alt="Photo of Annalyse Findley, 17, of Blairsville, Pennsylvania" loading="lazy" /></div>
+            <span class="status"><span aria-hidden="true">●</span> Found safe</span>
+            <h3>Annalyse Findley</h3>
+            <div class="meta">AGE 17 · BLAIRSVILLE, PENNSYLVANIA</div>
+            <p>Annalyse has been found safe. Missing People In America reports she is located and no longer missing — found and home safe after running away from the Blairsville area on October 30, 2026. Thank you to everyone who shared her alert.</p>
+            <div class="foot">Confirmed located by Missing People In America · Nov 1, 2026<br /><a href="https://missingpeopleinamerica.org/missing/Annalyse-Findley" target="_blank" rel="noopener">Check current status at MPIA</a></div>
+          </article>
+
+          <article class="kid memorial" data-kcat="memorial">
+            <div class="reel-fallback"><b>La'Niyah “Lala” Clark</b><span>In memory — why this board exists</span></div>
+            <span class="status">In memory — why this board exists</span>
+            <h3>La'Niyah “Lala” Clark</h3>
+            <div class="meta">AGE 14 · WILKES-BARRE, PENNSYLVANIA</div>
+            <p>Lala was 14, deaf, and from Wilkes-Barre — a hometown case. Reported missing January 17, 2026, she was found on February 21, 2026, behind a Thayer Street garage. The first 48 hours were the whole story, and the system was too slow. This board — latest case first, no waiting — exists because of her.</p>
+            <div class="foot">LCPC coverage: <a href="https://www.youtube.com/watch?v=FsvZmVjObBI" target="_blank" rel="noopener">“The Deaf Teen the System Ignored”</a> · <a href="https://www.youtube.com/watch?v=Ao1ChgQHf74" target="_blank" rel="noopener">“Fly High La'Niyah”</a></div>
+          </article>
+        </div>
+
+        <div class="safe-box" aria-labelledby="safe-h">
+          <h3 id="safe-h">Brought home safe</h3>
+          <p>Twelve kids from this board are home safe. Every share is a search party — these are the ones it found.</p>
+          <ul>
+            <li><b>Alonzo Morris, 12</b> — Kansas City, Missouri — Kansas City PD, Nov 5, 2026</li>
+            <li><b>Rianah “Riri” Herron, 11</b> — Lancaster, California — LA County Sheriff's Department, Nov 5, 2026</li>
+            <li><b>Travis Smith, 12</b> — Anchorage, Alaska — Anchorage PD, Nov 5, 2026 (APD Case 25-31936)</li>
+            <li><b>Timia Clark, 12</b> — Gardena, California — LA County Sheriff's Department, Nov 3, 2026</li>
+            <li><b>Roman Heilman, 6</b> — Louisa, Kentucky — Kentucky State Police, Nov 3, 2026</li>
+            <li><b>Trey Sanderson, 15</b> — Brockton, Massachusetts — Brockton PD, Nov 2, 2026</li>
+            <li><b>Dalyia James, 17</b> — McDonough, Georgia — McDonough PD, Nov 2, 2026</li>
+            <li><b>Ava Hasselberger, 15</b> — Glen Burnie, Maryland — Anne Arundel County PD, Nov 2, 2026</li>
+            <li><b>Joziah Figueroa, 15 &amp; Liliana Dicenso, 14</b> — Boston, Massachusetts — Boston PD, Nov 2, 2026</li>
+            <li><b>Annalyse Findley, 17</b> — Blairsville, Pennsylvania — Missing People In America, Nov 1, 2026</li>
+            <li><b>Corbin Bilden, 16</b> — Magnolia, Texas — Montgomery County Sheriff's Office, Oct 26, 2026 (Case #26A365155)</li>
+          </ul>
+          <p style="margin-top:12px;">Thank you to everyone who shared their alerts.</p>
+        </div>
+        <div class="healing">
+          <h3>Healing After Exposure</h3>
+          <p>Support for families of exposed predators.</p>
+          <a href="https://www.facebook.com/122123094195585" target="_blank" rel="noopener">Visit the Healing After Exposure page →</a>
+        </div>
+      </section>
+      <section class="wrap email-band" id="email-alerts" aria-labelledby="alerts-h">
+        <h2 id="alerts-h">Get the alerts in your inbox</h2>
+        <p>New missing-kid alerts and new episodes, straight to your email. No platform in the middle, no algorithm deciding whether you see it.</p>
+        <p style="text-align:center; margin:18px 0 10px;"><a class="btn btn-solid" href="https://docs.google.com/forms/d/e/1FAIpQLSftweMawxu_ik6f7GihiuoK1fvYUaAKectWqAntjUUwuOp_lg/viewform" target="_blank" rel="noopener">Sign up for email alerts →</a></p>
+        <p class="email-note">One email when a kid goes missing or an episode drops. Nothing else. Unsubscribe anytime. <a href="https://docs.google.com/forms/d/e/1FAIpQLSftweMawxu_ik6f7GihiuoK1fvYUaAKectWqAntjUUwuOp_lg/viewform" target="_blank" rel="noopener">Open the form in a new tab →</a></p>
+      </section>
+
+      <!-- NETWORK REELS -->
+      <section class="wrap" id="reels" aria-labelledby="reels-h">
+        <p class="sec-num">Short Form — The Positive Side</p>
+        <div class="sec-head"><div>
+          <h2 id="reels-h">Network Reels</h2>
+          <p>The short rails for the positive side of the network — episode teasers, registry explainers, and the best of the work, cut vertical. Watch here, then share them where they count: on Facebook, where the views and the Fast Track run.</p>
+        </div></div>
+        <div class="reels-strip">
+          <article class="reel-card">
+            <div class="vframe"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffacebook.com%2Freel%2F1846600026760260%2F&amp;show_text=false" title="Lackawanna County by County teaser" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="rc">
+              <span class="rk">County by County · Teaser</span>
+              <h3>Lackawanna — the launch teaser</h3>
+              <p>The teaser for the Lackawanna County registry episode — 524 names on the pull, and the vote that picked the county.</p>
+              <a href="https://facebook.com/reel/1846600026760260/" target="_blank" rel="noopener">Watch on Facebook →</a>
+            </div>
+          </article>
+          <article class="reel-card">
+            <div class="vframe"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffacebook.com%2Freel%2F1437928981128924%2F&amp;show_text=false" title="Best of LCPC compilation reel" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="rc">
+              <span class="rk">Compilation</span>
+              <h3>Best of LCPC</h3>
+              <p>The highlight reel — the moments that built the network, cut for the feed.</p>
+              <a href="https://facebook.com/reel/1437928981128924/" target="_blank" rel="noopener">Watch on Facebook →</a>
+            </div>
+          </article>
+        </div>
+        <p style="color:var(--muted);font-size:14.5px;margin-top:16px;">New episode teasers and alert reels join this strip as they drop.</p>
+      </section>
+
+      <!-- MUSIC + BOOKS -->
+      <section class="wrap" id="music" aria-labelledby="music-h">
+        <p class="sec-num">The Other Half of the Network</p>
+        <div class="sec-head"><div>
+          <h2 id="music-h">Music &amp; the story in print</h2>
+          <p>The catches built the audience. The music keeps the lights on — an original catalog released under the LCPC Network name, funding the work that platforms keep trying to throttle.</p>
+        </div></div>
+        <div class="music-grid">
+          <figure>
+            <img src="assets/studio.webp" srcset="assets/studio-800.webp 800w, assets/studio-1280.webp 1280w, assets/studio.webp 1920w" sizes="(max-width: 900px) 100vw, 50vw" alt="Illustration of a home recording studio at night — microphone, headphones, and audio waveforms on a laptop" />
+            <figcaption>THE CATALOG: 208 ORIGINAL SONGS, 2 TO 4 MINUTES EACH, WITH NEW UPLOADS LANDING THREE A WEEK.</figcaption>
+          </figure>
+          <div>
+            <h3 style="margin:0;font-size:20px;font-weight:800;">LCPC Network music</h3>
+            <p style="color:var(--ink-2);margin:10px 0 0;">The rollout leads with the songs the audience already knows — the catch songs written about real cases — three uploads a week, each with its own playlist home. The network theme is <em>“Between the Seconds.”</em> And when Musa dances on camera — the videos his audience loves — it's to his own songs now: no Content ID blocks, no takedowns, his catalog promoting itself.</p>
+            <ul class="tracklist">
+              <li><span class="tn">01</span><b>Catch songs</b><span>Real cases, set to music — first in the upload queue</span></li>
+              <li><span class="tn">02</span><b>Deluxe &amp; alternate mixes</b><span>Same-name songs in two versions — the main cut and the alternate mix, both staying in the rollout</span></li>
+              <li><span class="tn">03</span><b>“Fly High La'Niyah”</b><span>For Lala Clark — 15 minutes, sung in sections</span></li>
+              <li><span class="tn">04</span><b>“Between the Seconds”</b><span>The LCPC Network theme</span></li>
+            </ul>
+            <p style="margin-top:14px;"><a class="btn btn-ghost" href="https://www.youtube.com/@LCPCNETWORK" target="_blank" rel="noopener">LCPC Network on YouTube →</a></p>
+          </div>
+        </div>
+        <div class="book-band">
+          <div class="book">
+            <h3>More Than a Name</h3>
+            <p>The life behind the network, in Musa's own words — Newark childhood, prison, coming home in 2014, and the daughter whose messages started all of this in 2020. The expanded edition is the master text, and the full audiobook runs 2 hours 27 minutes.</p>
+          </div>
+          <div class="book">
+            <h3>The S Saga</h3>
+            <p>Three books published on Amazon, alongside <em>More Than a Name</em>. The catches made the headlines — the books are where he says his legacy actually lives, next to his kids. All three are available now — direct links below.</p>
+          </div>
+        </div>
+        <p class="saga-intro"><strong>The S Saga — buy on Amazon.</strong> Each book in the series, with its direct Amazon link:</p>
+        <div class="saga-band" aria-label="The S Saga books on Amazon">
+          <div class="book">
+            <span class="series-tag">The S Saga</span>
+            <h3>Return of Hood (The S Saga)</h3>
+            <p>The first book of the saga — Hood’s return, and the world he came back to.</p>
+            <a class="btn btn-solid" href="https://link.amazon/B0fcvXlxf" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+          <div class="book">
+            <span class="series-tag">The S Saga</span>
+            <h3>S: An Urban Novel of Seduction &amp; Survival</h3>
+            <p>Seduction and survival on the same streets the catches come from.</p>
+            <a class="btn btn-solid" href="https://link.amazon/B0gBACKTA" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+          <div class="book">
+            <span class="series-tag">The S Saga</span>
+            <h3>J-Roc</h3>
+            <p>The third book of the saga — J-Roc’s story, start to finish.</p>
+            <a class="btn btn-solid" href="https://link.amazon/B037rjnOO" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- WATCH -->
+      <section class="wrap" id="watch" aria-labelledby="watch-h">
+        <p class="sec-num">Every Platform</p>
+        <div class="sec-head"><div>
+          <h2 id="watch-h">Watch &amp; follow</h2>
+          <p>Channels get banned, pages get flagged, reach gets throttled — it has all happened before. That's why there are this many doors into the same house. Every current link, kept in one place, is right here. This website is the hub — no link page in between.</p>
+        </div></div>
+        <div class="plat-grid">
+          <a class="plat" href="https://www.facebook.com/MrLCPC" target="_blank" rel="noopener">
+            <span class="pn">Facebook <span class="arr">→</span></span>
+            <div class="ph2">LC Predator Catcher · facebook.com/MrLCPC</div>
+            <p>The home crowd: the monetized page, a 62K-member group, the County by County vote, and the missing kids posts — plus Healing After Exposure, for families of the exposed.</p>
+          </a>
+          <a class="plat" href="https://www.tiktok.com/@musaharris_lcpc_network" target="_blank" rel="noopener">
+            <span class="pn">TikTok <span class="arr">→</span></span>
+            <div class="ph2">@musaharris_lcpc_network</div>
+            <p>127.6K followers and 921.3K likes. The “exposure” playlist alone holds 186 posts — the fastest way to binge the catches.</p>
+          </a>
+          <a class="plat" href="https://www.instagram.com/lc_predator_catcher" target="_blank" rel="noopener">
+            <span class="pn">Instagram <span class="arr">→</span></span>
+            <div class="ph2">@lc_predator_catcher</div>
+            <p>Catches and clips on Instagram — reels, photos, and updates from the network, straight from the page.</p>
+          </a>
+          <a class="plat" href="https://www.youtube.com/@LCPCNETWORK" target="_blank" rel="noopener">
+            <span class="pn">YouTube <span class="arr">→</span></span>
+            <div class="ph2">LCPC Network · @LCPCNETWORK</div>
+            <p>352 videos and counting — full catches, the La'Niyah mini-docs, and the music channel building beside it.</p>
+          </a>
+          <a class="plat" href="https://rumble.com/user/LCPREDATORCATCHER" target="_blank" rel="noopener">
+            <span class="pn">Rumble <span class="arr">→</span></span>
+            <div class="ph2">LCPREDATORCATCHER</div>
+            <p>Lives run on Rumble and reach the Locals community at the same time — the premiere afterparties live here.</p>
+          </a>
+          <a class="plat" href="https://lcpredatorcatcher.locals.com" target="_blank" rel="noopener">
+            <span class="pn">Locals <span class="arr">→</span></span>
+            <div class="ph2">lcpredatorcatcher.locals.com</div>
+            <p>The Locals community — supporter lives, premiere afterparties, and the crowd that shows up first for every drop.</p>
+          </a>
+          <a class="plat" href="https://x.com/LcCatcher" target="_blank" rel="noopener">
+            <span class="pn">X <span class="arr">→</span></span>
+            <div class="ph2">@LcCatcher</div>
+            <p>The newest outpost — 654 exposures documented, Kingston, PA. Catch announcements and clips as the network expands.</p>
+          </a>
+          <a class="plat" href="https://www.snapchat.com/add/musafied1?share_id=z8mQAnmkS3U&locale=en-US" target="_blank" rel="noopener">
+            <span class="pn">Snapchat <span class="arr">→</span></span>
+            <div class="ph2">musafied1</div>
+            <p>Add LC Predator Catcher on Snapchat — catch alerts, quick clips, and network updates straight to your phone.</p>
+          </a>
+          <a class="plat" href="https://twitch.tv/lc_predator_catcher" target="_blank" rel="noopener">
+            <span class="pn">Twitch <span class="arr">→</span></span>
+            <div class="ph2">lc_predator_catcher</div>
+            <p>Live catches and streams — Affiliate channel, VODs up right after every stream.</p>
+          </a>
+          <a class="plat" href="https://kick.com/lc-predator-catcher" target="_blank" rel="noopener">
+            <span class="pn">Kick <span class="arr">→</span></span>
+            <div class="ph2">lc-predator-catcher</div>
+            <p>Live streams — the second live room, same streams, second crowd.</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- TOP VIDEOS -->
+      <section class="wrap" id="top-videos" aria-labelledby="top-h">
+        <p class="sec-num">Most Watched</p>
+        <div class="sec-head"><div>
+          <h2 id="top-h">Top videos, platform by platform</h2>
+          <p>Every platform has its own most-watched and its own algorithm — so they are never mixed. These are the leaders on each one, with the counts as reported by the platforms.</p>
+        </div></div>
+        <div class="top-grid">
+          <div class="plat-block">
+            <h3>YouTube</h3>
+            <div class="psub">LCPC Network · All-time views</div>
+            <ol class="top-list">
+              <li><span class="rk2">01</span><a href="https://youtu.be/1T8N9FQqsBE" target="_blank" rel="noopener">GAS AND TEA</a><span class="views">15,684</span></li>
+              <li><span class="rk2">02</span><a href="https://youtu.be/AWLdARABjxc" target="_blank" rel="noopener">JUST ANOTHER #DAY IN THE #PARK</a><span class="views">14,854</span></li>
+              <li><span class="rk2">03</span><a href="https://youtu.be/KJx6lKTbHck" target="_blank" rel="noopener">#STORE #MEET AND #GREET</a><span class="views">14,445</span></li>
+              <li><span class="rk2">04</span><a href="https://youtu.be/BUoN5O3q0h0" target="_blank" rel="noopener">I'M NOT NO #PEDOMON</a><span class="views">11,251</span></li>
+              <li><span class="rk2">05</span><a href="https://youtu.be/ckAs29SuEDI" target="_blank" rel="noopener">EX-#PENNSTATE #PROFESSOR #PEDOMON</a><span class="views">7,620</span></li>
+            </ol>
+          </div>
+          <div class="plat-block">
+            <h3>Facebook</h3>
+            <div class="psub">LC Predator Catcher page · By reach, Aug–Oct 2026</div>
+            <ol class="top-list">
+              <li><span class="rk2">01</span><a href="https://www.facebook.com/108575388094874/posts/1382693177362248" target="_blank" rel="noopener">Reading PA — “Told the Age, Invited Them Over Part 11”</a><span class="views">62,072</span></li>
+              <li><span class="rk2">02</span><a href="https://www.facebook.com/108575388094874/posts/1396558649309034" target="_blank" rel="noopener">“He Drove From Scranton to Meet a 15-Year-Old. He's #50.”</a><span class="views">36,249</span></li>
+              <li><span class="rk2">03</span><a href="https://www.facebook.com/108575388094874/posts/1367112095587023" target="_blank" rel="noopener">READING, PA — ANOTHER LCPC ENCOUNTER</a><span class="views">33,105</span></li>
+              <li><span class="rk2">04</span><a href="https://www.facebook.com/108575388094874/posts/1420723233559242" target="_blank" rel="noopener">Lackawanna 524-registry reel</a><span class="views">25,756</span></li>
+              <li><span class="rk2">05</span><a href="https://www.facebook.com/108575388094874/posts/1365693652395534" target="_blank" rel="noopener">CAUGHT TWICE: Richard Showed Up Again | Pottsville, PA</a><span class="views">16,550</span></li>
+            </ol>
+          </div>
+          <div class="plat-block">
+            <h3>Rumble</h3>
+            <div class="psub">LCPREDATORCATCHER · Most watched</div>
+            <ol class="top-list">
+              <li><span class="rk2">01</span><a href="https://rumble.com/v26pv7s-geisinger-worker-ross-bailey-tries-to-meet-up-with-underage-minor.html" target="_blank" rel="noopener">Geisinger worker Ross Bailey</a><span class="views">9.87K</span></li>
+              <li><span class="rk2">02</span><a href="https://rumble.com/v255yix-472-the-dentist-that-gave-himself-a-root-canal.html" target="_blank" rel="noopener">#472 The dentist that gave himself a root canal</a><span class="views">6.66K</span></li>
+              <li><span class="rk2">03</span><a href="https://rumble.com/v3aaiky-stunning-revelation-wilkes-university-professor-caught-in-online-predator-s.html" target="_blank" rel="noopener">Wilkes University Professor</a><span class="views">5.78K</span></li>
+              <li><span class="rk2">04</span><a href="https://rumble.com/v3670ev--60-year-old-robert-busted-in-online-pedomon-sting-shocking-revelation-.html" target="_blank" rel="noopener">60-Year-Old Robert #Busted</a><span class="views">5.23K</span></li>
+              <li><span class="rk2">05</span><a href="https://rumble.com/v25aejh-10th-grade-teacher-caught-trying-to-meet-up-with-minor.html" target="_blank" rel="noopener">10th grade #teacher</a><span class="views">4.36K</span></li>
+            </ol>
+          </div>
+          <div class="plat-block">
+            <h3>TikTok</h3>
+            <div class="psub">@musaharris_lcpc_network · Top pins</div>
+            <ol class="top-list">
+              <li><span class="rk2">01</span><a href="https://www.tiktok.com/@musaharris_lcpc_network" target="_blank" rel="noopener">EX COP FINALLY ARRESTED</a><span class="views">434K</span></li>
+              <li><span class="rk2">02</span><a href="https://www.tiktok.com/@musaharris_lcpc_network" target="_blank" rel="noopener">this happened in Washington DC</a><span class="views">172.2K</span></li>
+            </ol>
+            <p style="margin:14px 0 0;color:var(--ink-2);font-size:14.5px;">TikTok doesn't hand out stable per-video links for the pins — both live pinned at the top of the profile. <a href="https://www.tiktok.com/@musaharris_lcpc_network" target="_blank" rel="noopener" style="font-weight:700;">Open @musaharris_lcpc_network →</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUPPORT -->
+      <section class="wrap" id="support" aria-labelledby="support-h" style="padding-bottom:30px;">
+        <p class="sec-num">Keep It Running</p>
+        <div class="sec-head"><div>
+          <h2 id="support-h">Merch &amp; support</h2>
+          <p>LCPC is a one-man operation and a family income — ads, donations, merch, and subscriber content are what keep the camera rolling. Likes and shares count as support too: every share is another street that knows a face.</p>
+        </div></div>
+        <div class="support-grid">
+          <div class="sup">
+            <h3>Join the Locals</h3>
+            <p>A community linked with Rumble — supporter lives, premiere afterparties, and the crowd that shows up first for every drop.</p>
+            <a class="btn btn-ghost" href="https://lcpredatorcatcher.locals.com" target="_blank" rel="noopener">Join on Locals →</a>
+          </div>
+          <div class="sup">
+            <h3>Merch</h3>
+            <p>The old Spring store is closed and the lineup is being rebuilt. When the new store opens, this page and the Facebook page will be the first places it's posted. Want first word? Join the Locals or follow the page — the drop gets announced there first.</p>
+            <a class="btn btn-ghost" href="https://www.facebook.com/MrLCPC" target="_blank" rel="noopener">Follow the page for first word →</a>
+          </div>
+          <div class="sup">
+            <h3>Share the exposure</h3>
+            <p>“You just do it for the likes” — exactly. The like <em>is</em> the exposure. Every repost of a catch or a missing kid puts a face in front of somebody who might recognize it.</p>
+            <a class="btn btn-ghost" href="#case-files">Repost a case file</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FUEL THE MISSION -->
+      <section class="wrap" id="fuel" aria-labelledby="fuel-h" style="padding-bottom:30px;">
+        <p class="sec-num">Direct Support — No Middleman</p>
+        <div class="sec-head"><div>
+          <h2 id="fuel-h">Fuel the Mission</h2>
+        </div></div>
+        <div class="fuel-band">
+          <p class="fuel-lede">This work runs on gas, gear, and time — not a newsroom budget. <strong>Every dollar keeps the cameras rolling and the investigations going:</strong> the next chat logged, the next meet documented, the next missing kid's face in front of 150,000 people. If the work matters to you, pick one — a dollar once, or two dollars a month — and keep it moving.</p>
+          <div class="fuel-grid">
+            <div class="fuel-card">
+              <span class="fk">Cash App — Fastest</span>
+              <h3>CashApp</h3>
+              <div class="handle">$MusaLCPC</div>
+              <p>Send direct on Cash App. No account needed beyond the app — it lands with Musa and goes straight to the work: travel to meets, equipment, and keeping the network online.</p>
+              <a class="btn btn-fuel-solid" href="https://cash.app/$MusaLCPC" target="_blank" rel="noopener">Donate via CashApp — $MusaLCPC →</a>
+            </div>
+            <div class="fuel-card">
+              <span class="fk">Buy Me a Coffee — Monthly or one-time</span>
+              <h3>Buy Me a Coffee</h3>
+              <div class="handle">LC PREDATOR CATCHER Network</div>
+              <p>Monthly support that keeps the camera rolling — become a member or drop a one-time tip. Every dollar goes straight to the work: travel to meets, equipment, and keeping the network online.</p>
+              <a class="btn btn-fuel-ghost" href="https://buymeacoffee.com/lcpredatorA" target="_blank" rel="noopener">Support on Buy Me a Coffee →</a>
+            </div>
+            <div class="fuel-card">
+              <span class="fk">Facebook — $1.99/month</span>
+              <h3>Become a Supporter</h3>
+              <div class="handle">$1.99 / month · Tier 1 “Supporter”</div>
+              <p>Subscribe on the LC Predator Catcher page — $1.99 a month. Exclusive content and subscriber discounts, and the money lands every month whether the algorithm shows up or not.</p>
+              <a class="btn btn-fuel-ghost" href="https://www.facebook.com/MrLCPC" target="_blank" rel="noopener">Subscribe on Facebook →</a>
+            </div>
+          </div>
+          <p class="fuel-note">EVERY CONTRIBUTION STAYS IN THE WORK — CAMERAS, TRAVEL, AND THE NEXT INVESTIGATION.</p>
+        </div>
+      </section>
+      <!-- PRESS -->
+      <section class="wrap" id="press" aria-labelledby="press-h" style="padding-bottom:30px;">
+        <p class="sec-num">Press &amp; Bookings</p>
+        <div class="sec-head"><div>
+          <h2 id="press-h">Covering the story? Start here.</h2>
+          <p>National TV, regional news, podcasts, and documentaries have all covered this work — and the door stays open. Interviews, footage questions, podcast bookings, and speaking requests go to one inbox.</p>
+        </div></div>
+        <div class="press-grid">
+          <div class="press-card">
+            <h3>Press contact</h3>
+            <p>Musa M. Harris — LC Predator Catcher / LCPC Network, Kingston, PA. One inbox for media, podcasts, and collaborations; it's the same address the channels publish, checked daily.</p>
+            <a class="btn" href="mailto:lcpredatorcatcher@gmail.com?subject=Press%20%2F%20booking%20inquiry%20—%20LCPC%20Network">Email the network</a>
+            <a class="mail" href="mailto:lcpredatorcatcher@gmail.com">lcpredatorcatcher@gmail.com</a>
+          </div>
+          <div>
+            <h3 style="margin:2px 0 14px;font-size:19px;font-weight:800;">The record, for your story</h3>
+            <ul class="facts">
+              <li><span class="fn">654</span><span class="fl">Exposures documented since March 2020 — a one-man operation out of Kingston, PA</span></li>
+              <li><span class="fn">7×</span><span class="fl">Appearances on the Law&amp;Crime Network, plus WBRE I-Team and a Gannett feature</span></li>
+              <li><span class="fn">2023</span><span class="fl">Met with Pennsylvania House Speaker Rozzi about the work and the laws around it</span></li>
+              <li><span class="fn">~20</span><span class="fl">Men charged in Luzerne County alone off evidence LCPC handed to police</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="license" aria-labelledby="license-h">
+          <div class="license-head">
+            <h3 id="license-h">Footage Licensing</h3>
+            <span class="lk">Read before you email</span>
+          </div>
+          <p class="license-intro">Networks, shows, and documentaries: LCPC footage isn't free clips. These are the terms — plain and simple — for using any catch footage.</p>
+          <ol class="license-list">
+            <li><span class="ln">01</span><span><strong>Paid upfront.</strong> No free clips, no “exposure” deals. A single-segment license starts around $500–$1,000 per clip — more for exclusive or documentary rights.</span></li>
+            <li><span class="ln">02</span><span><strong>Credit on screen.</strong> Every use carries the on-screen credit “Footage: LC Predator Catcher,” plus a link to the channel in the video description.</span></li>
+            <li><span class="ln">03</span><span><strong>One use, one segment.</strong> You're renting the footage, not buying it. One license covers one use in one segment — no re-use, no resale, no handing it off.</span></li>
+            <li><span class="ln">04</span><span><strong>Approval before air.</strong> Musa sees and approves the final cut before it airs. Nothing goes out without his sign-off.</span></li>
+            <li><span class="ln">05</span><span><strong>No hit pieces.</strong> Footage can't be edited or used to paint Musa as the villain. If the segment is built to make him look like the bad guy, the license doesn't happen.</span></li>
+          </ol>
+          <div class="license-foot">
+            <p><strong>Licensing inquiries:</strong> <a href="mailto:lcpredatorcatcher@gmail.com">lcpredatorcatcher@gmail.com</a> — put “Footage Licensing” in the subject line.</p>
+            <a class="btn btn-solid" href="mailto:lcpredatorcatcher@gmail.com?subject=Footage%20Licensing%20—%20LCPC%20Network">Ask about licensing</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot-in">
+        <p class="foot-close">LCPC Network documents the meet. <em>Courts decide the rest.</em></p>
+        <div class="foot-row">
+          <span>LC PREDATOR CATCHER · KINGSTON, PA</span>
+          <span>SINCE MARCH 2020</span>
+          <span>654 EXPOSURES DOCUMENTED</span>
+          <a href="https://www.facebook.com/MrLCPC" target="_blank" rel="noopener">FACEBOOK — LC PREDATOR CATCHER</a>
+          <a href="https://x.com/LcCatcher" target="_blank" rel="noopener">X — @LcCATCHER</a>
+          <a href="mailto:lcpredatorcatcher@gmail.com">PRESS — LCPREDATORCATCHER@GMAIL.COM</a>
+          <span>MISSING CHILD? NCMEC <a href="tel:+18008435678">1-800-843-5678</a></span>
+          <a href="#top">↑ Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        // Case-file search + category filter (in-memory only)
+        var cases = Array.prototype.slice.call(document.querySelectorAll('#caseList .case'));
+        var noResults = document.getElementById('noResults');
+        var search = document.getElementById('caseSearch');
+        var activeFilter = 'all';
+        function applyCases() {
+          var q = (search.value || '').trim().toLowerCase();
+          var shown = 0;
+          cases.forEach(function (c) {
+            var catOk = activeFilter === 'all' || (c.getAttribute('data-cat') || '').split(' ').indexOf(activeFilter) !== -1;
+            var textOk = !q || (c.textContent + ' ' + (c.getAttribute('data-text') || '')).toLowerCase().indexOf(q) !== -1;
+            var vis = catOk && textOk;
+            c.style.display = vis ? '' : 'none';
+            if (vis) shown++;
+          });
+          noResults.style.display = shown ? 'none' : 'block';
+        }
+        search.addEventListener('input', applyCases);
+        document.querySelectorAll('[data-filter]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('[data-filter]').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+            btn.setAttribute('aria-pressed', 'true');
+            activeFilter = btn.getAttribute('data-filter');
+            applyCases();
+          });
+        });
+
+        // Missing kids board filter (in-memory only)
+        var kids = Array.prototype.slice.call(document.querySelectorAll('#kidGrid .kid'));
+        document.querySelectorAll('[data-kfilter]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('[data-kfilter]').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+            btn.setAttribute('aria-pressed', 'true');
+            var f = btn.getAttribute('data-kfilter');
+            kids.forEach(function (k) {
+              k.style.display = (f === 'all' || k.getAttribute('data-kcat') === f) ? '' : 'none';
+            });
+          });
+        });
+
+        // Default view: still missing
+        var defaultFilter = document.querySelector('[data-kfilter="active"]');
+        if (defaultFilter) defaultFilter.click();
+      })();
+    </script>
+  </body>
+</html>
